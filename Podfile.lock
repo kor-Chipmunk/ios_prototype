@@ -1,0 +1,12 @@
+PODS:
+  - UICircularProgressRing (1.1.7)
+
+DEPENDENCIES:
+  - UICircularProgressRing
+
+SPEC CHECKSUMS:
+  UICircularProgressRing: aa42aecd035658bd7212fab6e2feabc8dcc72fae
+
+PODFILE CHECKSUM: f05077a04fc4a40afc01f7500542f231ce473b42
+
+COCOAPODS: 1.1.1
