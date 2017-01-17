@@ -9,6 +9,7 @@ target 'Prototype' do
   pod 'UICircularProgressRing'
   pod 'SkyFloatingLabelTextField', '~> 2.0.0'
   pod 'LTMorphingLabel'
+  pod 'FoldingCell', '~> 2.0.3' 
 
   post_install do |installer|
       installer.pods_project.targets.each do |target|
