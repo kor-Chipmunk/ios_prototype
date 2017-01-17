@@ -44,19 +44,19 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="88" height="165"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#25" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1U-C1-n4a">
-                                                            <rect key="frame" x="18.5" y="31.5" width="43" height="33"/>
+                                                            <rect key="frame" x="20" y="34" width="40.5" height="28"/>
                                                             <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="24"/>
                                                             <color key="textColor" red="1" green="1" blue="1" alpha="0.80086043070000001" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="최근 체크" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gH6-EG-A0u">
-                                                            <rect key="frame" x="18" y="101" width="37.5" height="14"/>
+                                                            <rect key="frame" x="18" y="103" width="37.5" height="12"/>
                                                             <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="10"/>
                                                             <color key="textColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1시간 전" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8j-8G-k2n">
-                                                            <rect key="frame" x="18" y="119" width="45" height="18"/>
+                                                            <rect key="frame" x="18" y="121.5" width="45" height="15.5"/>
                                                             <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="13"/>
                                                             <color key="textColor" red="1" green="1" blue="1" alpha="0.80434438340000003" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -73,10 +73,13 @@
                                                         <constraint firstAttribute="bottom" secondItem="gH6-EG-A0u" secondAttribute="bottom" constant="50" id="sNT-zf-H0g"/>
                                                     </constraints>
                                                 </view>
-                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="379-je-wfT" customClass="UICircularProgressRingView" customModule="UICircularProgressRing">
-                                                    <rect key="frame" x="96" y="46" width="63" height="63"/>
-                                                    <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="379-je-wfT" customClass="UICircularProgressRingView" customModule="UICircularProgressRing">
+                                                    <rect key="frame" x="96" y="51" width="63" height="63"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="64" id="n9p-oQ-BrQ"/>
+                                                        <constraint firstAttribute="height" constant="64" id="tpw-Me-zIq"/>
+                                                    </constraints>
                                                     <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="glowAmount">
@@ -126,10 +129,13 @@
                                                         <userDefinedRuntimeAttribute type="color" keyPath="innerRingColor">
                                                             <color key="value" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="endAngle">
+                                                            <real key="value" value="270"/>
+                                                        </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="시험 공부 하기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6P-94-uka">
-                                                    <rect key="frame" x="167" y="42" width="253" height="71"/>
+                                                    <rect key="frame" x="167" y="47" width="253" height="71"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="26"/>
                                                     <nil key="textColor"/>
@@ -140,6 +146,8 @@
                                             <constraints>
                                                 <constraint firstItem="SgY-mT-aVv" firstAttribute="top" secondItem="Eac-gS-OuQ" secondAttribute="top" id="1bO-7Y-cf2"/>
                                                 <constraint firstAttribute="height" constant="165" id="3hS-mc-WFk"/>
+                                                <constraint firstItem="379-je-wfT" firstAttribute="leading" secondItem="SgY-mT-aVv" secondAttribute="trailing" constant="8" id="Iu4-Yt-6MU"/>
+                                                <constraint firstItem="379-je-wfT" firstAttribute="top" secondItem="Eac-gS-OuQ" secondAttribute="top" constant="51" id="MMb-bV-pWc"/>
                                                 <constraint firstItem="SgY-mT-aVv" firstAttribute="leading" secondItem="Eac-gS-OuQ" secondAttribute="leading" id="l2V-dU-teS"/>
                                                 <constraint firstAttribute="bottom" secondItem="SgY-mT-aVv" secondAttribute="bottom" id="mnS-uG-8W9"/>
                                             </constraints>
@@ -148,7 +156,7 @@
                                             <rect key="frame" x="20" y="180" width="560" height="479"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j0r-Qo-nOd" userLabel="FirstContanerView">
-                                                    <rect key="frame" x="0.0" y="0.0" width="560" height="165"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="560" height="49"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="STd-Iy-Rew" userLabel="bar">
                                                             <rect key="frame" x="0.0" y="0.0" width="560" height="49"/>
@@ -189,69 +197,103 @@
                                                                 </userDefinedRuntimeAttribute>
                                                             </userDefinedRuntimeAttributes>
                                                         </view>
-                                                        <view tag="1" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OtW-vA-3Dy" userLabel="SecondContanerView" customClass="RotatedView" customModule="Prototype" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="51" width="560" height="281"/>
-                                                            <subviews>
-                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GVt-Ir-xy5" userLabel="line">
-                                                                    <rect key="frame" x="22" y="282" width="516" height="1"/>
-                                                                    <color key="backgroundColor" red="0.39607843139999999" green="0.40000000000000002" blue="0.39607843139999999" alpha="0.20135663009999999" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                    <constraints>
-                                                                        <constraint firstAttribute="height" constant="1" id="mbw-es-tsw"/>
-                                                                    </constraints>
-                                                                </view>
-                                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kK5-AY-WYs" customClass="M13Checkbox" customModule="M13Checkbox">
-                                                                    <rect key="frame" x="22" y="22" width="50" height="50"/>
-                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                                    <color key="tintColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                                    <userDefinedRuntimeAttributes>
-                                                                        <userDefinedRuntimeAttribute type="color" keyPath="secondaryTintColor">
-                                                                            <color key="value" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                                        </userDefinedRuntimeAttribute>
-                                                                        <userDefinedRuntimeAttribute type="color" keyPath="secondaryCheckmarkTintColor">
-                                                                            <color key="value" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                                        </userDefinedRuntimeAttribute>
-                                                                        <userDefinedRuntimeAttribute type="number" keyPath="checkmarkLineWidth">
-                                                                            <real key="value" value="3"/>
-                                                                        </userDefinedRuntimeAttribute>
-                                                                        <userDefinedRuntimeAttribute type="number" keyPath="boxLineWidth">
-                                                                            <real key="value" value="3"/>
-                                                                        </userDefinedRuntimeAttribute>
-                                                                    </userDefinedRuntimeAttributes>
-                                                                </view>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="11장 공부하기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6J6-UR-JU3">
-                                                                    <rect key="frame" x="80" y="12" width="253" height="71"/>
-                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="26"/>
-                                                                    <nil key="textColor"/>
-                                                                    <nil key="highlightedColor"/>
-                                                                </label>
-                                                            </subviews>
-                                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="trailing" secondItem="GVt-Ir-xy5" secondAttribute="trailing" constant="22" id="WOX-U0-qib"/>
-                                                                <constraint firstItem="GVt-Ir-xy5" firstAttribute="leading" secondItem="OtW-vA-3Dy" secondAttribute="leading" constant="22" id="aPo-8c-Qu1"/>
-                                                                <constraint firstItem="GVt-Ir-xy5" firstAttribute="centerY" secondItem="OtW-vA-3Dy" secondAttribute="centerY" constant="200" id="bKV-o1-sag"/>
-                                                                <constraint firstAttribute="height" constant="165" id="rgk-68-VNw"/>
-                                                            </constraints>
-                                                        </view>
                                                     </subviews>
-                                                    <color key="backgroundColor" red="0.36470588240000001" green="0.29411764709999999" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
-                                                        <constraint firstItem="OtW-vA-3Dy" firstAttribute="leading" secondItem="j0r-Qo-nOd" secondAttribute="leading" id="0RU-UH-Xid"/>
-                                                        <constraint firstItem="OtW-vA-3Dy" firstAttribute="top" secondItem="j0r-Qo-nOd" secondAttribute="top" constant="90" id="5a0-It-EFz"/>
-                                                        <constraint firstAttribute="trailing" secondItem="OtW-vA-3Dy" secondAttribute="trailing" id="6R9-06-G6b"/>
                                                         <constraint firstItem="STd-Iy-Rew" firstAttribute="leading" secondItem="j0r-Qo-nOd" secondAttribute="leading" id="VIe-mB-IqX"/>
-                                                        <constraint firstAttribute="height" constant="165" id="ZGr-5P-8Sm"/>
+                                                        <constraint firstAttribute="height" constant="49" id="ZGr-5P-8Sm"/>
                                                         <constraint firstAttribute="trailing" secondItem="STd-Iy-Rew" secondAttribute="trailing" id="eJt-BJ-Kiu"/>
                                                         <constraint firstItem="STd-Iy-Rew" firstAttribute="top" secondItem="j0r-Qo-nOd" secondAttribute="top" id="p8a-lg-ieQ"/>
                                                     </constraints>
                                                 </view>
-                                                <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iwG-Gr-bs8" userLabel="ThirdContanerView" customClass="RotatedView" customModule="Prototype" customModuleProvider="target">
-                                                    <rect key="frame" x="0.0" y="330" width="560" height="72"/>
+                                                <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OtW-vA-3Dy" userLabel="SecondContanerView" customClass="RotatedView" customModule="Prototype" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="48" width="560" height="354"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="11장 공부하기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v61-9e-NQe">
+                                                            <rect key="frame" x="80" y="12" width="253" height="71"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="26"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2j4-ID-f98" customClass="M13Checkbox" customModule="M13Checkbox">
+                                                            <rect key="frame" x="22" y="101" width="50" height="50"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <color key="tintColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="secondaryTintColor">
+                                                                    <color key="value" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="secondaryCheckmarkTintColor">
+                                                                    <color key="value" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="checkmarkLineWidth">
+                                                                    <real key="value" value="3"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="boxLineWidth">
+                                                                    <real key="value" value="3"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12장 공부하기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="deZ-S7-dr3">
+                                                            <rect key="frame" x="80" y="91" width="253" height="71"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="26"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qj5-XL-KZK" customClass="M13Checkbox" customModule="M13Checkbox">
+                                                            <rect key="frame" x="22" y="180" width="50" height="50"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <color key="tintColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="secondaryTintColor">
+                                                                    <color key="value" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="secondaryCheckmarkTintColor">
+                                                                    <color key="value" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="checkmarkLineWidth">
+                                                                    <real key="value" value="3"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="boxLineWidth">
+                                                                    <real key="value" value="3"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="13장 공부하기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAj-le-R8z">
+                                                            <rect key="frame" x="80" y="170" width="253" height="71"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="26"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="36K-iD-Q1H" customClass="M13Checkbox" customModule="M13Checkbox">
+                                                            <rect key="frame" x="22" y="22" width="50" height="50"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <color key="tintColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="secondaryTintColor">
+                                                                    <color key="value" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="secondaryCheckmarkTintColor">
+                                                                    <color key="value" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="checkmarkLineWidth">
+                                                                    <real key="value" value="3"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="boxLineWidth">
+                                                                    <real key="value" value="3"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                    </subviews>
                                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="72" id="9F9-RA-94M"/>
+                                                        <constraint firstAttribute="height" constant="354" id="rgk-68-VNw"/>
                                                     </constraints>
                                                 </view>
                                                 <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zco-JV-Goj" userLabel="BottomContanerView" customClass="RotatedView" customModule="Prototype" customModuleProvider="target">
@@ -271,7 +313,7 @@
                                                                 <constraint firstAttribute="height" constant="41" id="fXB-Xu-L7E"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="18"/>
-                                                            <state key="normal" title="편집하러 가기">
+                                                            <state key="normal" title="자세히 보기">
                                                                 <color key="titleColor" red="0.27058823529999998" green="0.2156862745" blue="0.08235294118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             </state>
                                                             <userDefinedRuntimeAttributes>
@@ -304,15 +346,17 @@
                                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstItem="zco-JV-Goj" firstAttribute="top" secondItem="JeG-cZ-mEZ" secondAttribute="top" constant="402" identifier="yPosition" id="4AU-5W-6j8"/>
-                                                <constraint firstItem="iwG-Gr-bs8" firstAttribute="top" secondItem="JeG-cZ-mEZ" secondAttribute="top" constant="330" identifier="yPosition" id="Ipw-ob-O2Q"/>
-                                                <constraint firstAttribute="trailing" secondItem="iwG-Gr-bs8" secondAttribute="trailing" id="JPa-ph-u0W"/>
+                                                <constraint firstItem="OtW-vA-3Dy" firstAttribute="leading" secondItem="JeG-cZ-mEZ" secondAttribute="leading" id="BZu-AB-fAb"/>
                                                 <constraint firstItem="j0r-Qo-nOd" firstAttribute="top" secondItem="JeG-cZ-mEZ" secondAttribute="top" id="KSq-St-HrQ"/>
-                                                <constraint firstItem="iwG-Gr-bs8" firstAttribute="leading" secondItem="JeG-cZ-mEZ" secondAttribute="leading" id="R0u-Nz-dia"/>
+                                                <constraint firstAttribute="trailing" secondItem="j0r-Qo-nOd" secondAttribute="trailing" id="MgL-zv-duF"/>
+                                                <constraint firstAttribute="trailing" secondItem="OtW-vA-3Dy" secondAttribute="trailing" id="T9p-Tq-mfY"/>
                                                 <constraint firstItem="zco-JV-Goj" firstAttribute="leading" secondItem="JeG-cZ-mEZ" secondAttribute="leading" id="TQf-ac-Fff"/>
                                                 <constraint firstAttribute="height" constant="479" id="VmK-P8-g9W"/>
-                                                <constraint firstAttribute="trailing" secondItem="j0r-Qo-nOd" secondAttribute="trailing" id="fby-bV-Nt8"/>
                                                 <constraint firstItem="j0r-Qo-nOd" firstAttribute="leading" secondItem="JeG-cZ-mEZ" secondAttribute="leading" id="hxd-hN-Yx9"/>
+                                                <constraint firstItem="zco-JV-Goj" firstAttribute="trailing" secondItem="OtW-vA-3Dy" secondAttribute="trailing" id="lKn-IK-AN6"/>
+                                                <constraint firstItem="OtW-vA-3Dy" firstAttribute="leading" secondItem="j0r-Qo-nOd" secondAttribute="leading" id="syt-Ab-cmi"/>
                                                 <constraint firstAttribute="trailing" secondItem="zco-JV-Goj" secondAttribute="trailing" id="tec-en-sRb"/>
+                                                <constraint firstItem="OtW-vA-3Dy" firstAttribute="top" secondItem="JeG-cZ-mEZ" secondAttribute="top" constant="48" id="vXX-eZ-I0V"/>
                                             </constraints>
                                         </view>
                                     </subviews>
@@ -380,7 +424,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7vh-GC-3uX" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="vnT-1P-s3k">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vnT-1P-s3k">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
