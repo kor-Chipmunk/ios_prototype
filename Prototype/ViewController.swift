@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import LTMorphingLabel
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, LTMorphingLabelDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()

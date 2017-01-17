@@ -1,12 +1,18 @@
 PODS:
+  - LTMorphingLabel (0.4.0)
+  - SkyFloatingLabelTextField (2.0.1)
   - UICircularProgressRing (1.1.7)
 
 DEPENDENCIES:
+  - LTMorphingLabel
+  - SkyFloatingLabelTextField (~> 2.0.0)
   - UICircularProgressRing
 
 SPEC CHECKSUMS:
+  LTMorphingLabel: d9a85f16ac306f0e07321d6819964deb2dc69638
+  SkyFloatingLabelTextField: 070e749632ffd608d6fd9db3fa488a822524997c
   UICircularProgressRing: aa42aecd035658bd7212fab6e2feabc8dcc72fae
 
-PODFILE CHECKSUM: f05077a04fc4a40afc01f7500542f231ce473b42
+PODFILE CHECKSUM: 73ceab316a95544ae117028ac275ec97db79ef70
 
 COCOAPODS: 1.1.1
