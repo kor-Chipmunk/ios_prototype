@@ -10,6 +10,7 @@ target 'Prototype' do
   pod 'SkyFloatingLabelTextField', '~> 2.0.0'
   pod 'LTMorphingLabel'
   pod 'FoldingCell', '~> 2.0.3' 
+  pod 'M13Checkbox'
 
   post_install do |installer|
       installer.pods_project.targets.each do |target|

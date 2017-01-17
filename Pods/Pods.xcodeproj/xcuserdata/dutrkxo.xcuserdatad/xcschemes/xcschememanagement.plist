@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>FoldingCell.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>LTMorphingLabel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>M13Checkbox.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,12 +47,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>30E05F30D6ADFC40BB7FC3E8C94AE14C</key>
+		<key>20A9DD9ABBF08BC57372A26C35327BF1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3F6706213990751DCBCEA1A1A3829664</key>
+		<key>30E05F30D6ADFC40BB7FC3E8C94AE14C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,17 +62,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>5828EF1F07FBE8B0C824AF110229C51A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6F04EEEDC9F45A5DF20200FCDD227D13</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>80EB465057521537703AFEEAAD746FB1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E305447622B2DF3D22F593B6DBDC8719</key>
+		<key>98BFEABAA2864F48BFFF1CFDF87D0034</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E621D390A50D2A468742883F0EFEFDB4</key>
+		<key>B626E472969D6F87698AF0041EAAFC38</key>
 		<dict>
 			<key>primary</key>
 			<true/>

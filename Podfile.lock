@@ -1,21 +1,24 @@
 PODS:
   - FoldingCell (2.0.3)
   - LTMorphingLabel (0.4.0)
+  - M13Checkbox (3.1.3)
   - SkyFloatingLabelTextField (2.0.1)
   - UICircularProgressRing (1.1.7)
 
 DEPENDENCIES:
   - FoldingCell (~> 2.0.3)
   - LTMorphingLabel
+  - M13Checkbox
   - SkyFloatingLabelTextField (~> 2.0.0)
   - UICircularProgressRing
 
 SPEC CHECKSUMS:
   FoldingCell: 2f3113051609167776743415fc00ed877ac6d62c
   LTMorphingLabel: d9a85f16ac306f0e07321d6819964deb2dc69638
+  M13Checkbox: c132a7e0eb964731855eff67b883a0b21b7c0977
   SkyFloatingLabelTextField: 070e749632ffd608d6fd9db3fa488a822524997c
   UICircularProgressRing: aa42aecd035658bd7212fab6e2feabc8dcc72fae
 
-PODFILE CHECKSUM: 217459acc1f5f08fbd5d48a6e4d6612e4bbbac5e
+PODFILE CHECKSUM: 6f47ea1fa17c0e97ff337ec7f5f162b36797f391
 
 COCOAPODS: 1.1.1

@@ -6,7 +6,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Prototype/ViewController.swift"
@@ -14,49 +14,32 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "12"
-            endingLineNumber = "12"
-            landmarkName = "ViewController"
-            landmarkType = "3">
+            endingLineNumber = "12">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Prototype.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Prototype.ViewController"
+                  symbolName = "Prototype.ViewController.init (style : __C.UITableViewStyle) -&gt; Prototype.ViewController"
                   moduleName = "Prototype"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/dutrkxo/Desktop/Prototype/Prototype/ViewController.swift"
-                  timestampString = "506331860.925713"
+                  timestampString = "506348248.145519"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "107">
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "39">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Prototype.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Prototype.ViewController"
+                  symbolName = "Prototype.ViewController.__allocating_init (style : __C.UITableViewStyle) -&gt; Prototype.ViewController"
                   moduleName = "Prototype"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/dutrkxo/Desktop/Prototype/Prototype/ViewController.swift"
-                  timestampString = "506331860.928203"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "23">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Prototype.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Prototype.ViewController&gt;"
-                  moduleName = "Prototype"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dutrkxo/Desktop/Prototype/Prototype/ViewController.swift"
-                  timestampString = "506331860.931689"
+                  timestampString = "506348248.147493"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -64,19 +47,64 @@
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Prototype.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Prototype.ViewController"
+                  moduleName = "Prototype"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dutrkxo/Desktop/Prototype/Prototype/ViewController.swift"
+                  timestampString = "506348248.149672"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Prototype.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Prototype.ViewController"
+                  moduleName = "Prototype"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dutrkxo/Desktop/Prototype/Prototype/ViewController.swift"
+                  timestampString = "506348248.151868"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Prototype.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Prototype.ViewController&gt;"
+                  moduleName = "Prototype"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dutrkxo/Desktop/Prototype/Prototype/ViewController.swift"
+                  timestampString = "506348248.153594"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Prototype.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Prototype.ViewController&gt;"
                   moduleName = "Prototype"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/dutrkxo/Desktop/Prototype/Prototype/ViewController.swift"
-                  timestampString = "506331860.934666"
+                  timestampString = "506348248.155357"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "105">
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "39">
                </Location>
             </Locations>
          </BreakpointContent>

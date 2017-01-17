@@ -7,180 +7,236 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03B9A62860780F189A31A1749213A5F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
-		04CAC0E5075BD1177EFE2B0A99FC551D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF675A168132FD52AED630F977FE906 /* UIKit.framework */; };
-		1278DF4A360A3F7024266B96D9A4BBB2 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BD5AFCFDBDCB6D9790BC8106834245 /* SkyFloatingLabelTextField-dummy.m */; };
-		1331F773C6430403D949483852128F8A /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A65731B96164352624B1F5678C79BEDF /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16306CFA379574E49DA71F8CE8EC5F4C /* UICircularProgressRingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F62ACECB13DDFC1A25CE197B39C064 /* UICircularProgressRingDelegate.swift */; };
-		194C1D2C281A90B09B503DAEA1767400 /* Pods-Prototype-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D3DEB3B5B93C220D529490680BDE12 /* Pods-Prototype-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C9AF992C79F9F46BB71E12D071A9AB7 /* FoldingCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBE7B18707748860CA0105295CE474F /* FoldingCell-dummy.m */; };
-		220A91F8CE8669B742B00CD3C81C3910 /* LTMorphingLabel+Anvil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5CD16A632954B15D249DED32B8449A /* LTMorphingLabel+Anvil.swift */; };
-		2512FDE63B4301752075AA96FC518701 /* UICircularProgressRing.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCA0CABFE970C7B4EB943EE143ED8B1 /* UICircularProgressRing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2534806772D59757EC8F1CC16528B9D1 /* LTStringDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E4234A3EA202FF8A9CFBB0D67D3DB7 /* LTStringDiffResult.swift */; };
-		2FAECCEE04D4BEA987955653249781E4 /* UICircularProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578D1199B37B867D5F9B62CDF9A7C99 /* UICircularProgressRingView.swift */; };
-		3663AD5A53A399294F616BBB090BC98C /* LTMorphingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 71F08A914301FA5A7E6FAC1FBDAD9F01 /* LTMorphingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C7D728E5057D9937D5489945D257304 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */; };
-		3F059933E4705EF4B128507F4C7189B8 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E014F70B29BD368A014453EBBF99565 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
-		3F8B0A80A2276127C916C8EF2CB92C07 /* LTMorphingLabel+Evaporate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B01398005F46E718B49EF5326C848 /* LTMorphingLabel+Evaporate.swift */; };
-		435090E3FE50A2A659F6F29E79B57B16 /* LTMorphingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBBC1E4E125E4409A7A98A116D78B64 /* LTMorphingEffect.swift */; };
-		503F70FCC6E8D6394B5243A4FA2BB520 /* LTMorphingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF8AB1C11EBEB943266DE4BB46388BA /* LTMorphingLabel-dummy.m */; };
-		509F6A7464DE8B439265CB4BABF3E77A /* UICircularProgressRing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBC30B2665746C9801AC6EE1801802F /* UICircularProgressRing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		514B3CCCC0F8433D22686E596FC967E8 /* Fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 034C67812A2EB758D4874B41D75D4818 /* Fire.png */; };
-		556D33B99B64976B2F45B25C99B5923E /* LTMorphingLabel+Burn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8694730EEC81DEAE16B89556E620C7CF /* LTMorphingLabel+Burn.swift */; };
+		03B9A62860780F189A31A1749213A5F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */; };
+		04CAC0E5075BD1177EFE2B0A99FC551D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1FD743D031D373EDF29CC526F758E2 /* UIKit.framework */; };
+		160F5A19F976443047C1E228A60DABE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */; };
+		166E474CD21C76A6896B6C89DF6F875B /* UICircularProgressRingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E3929F0AF05B85B673B99D84885988 /* UICircularProgressRingLayer.swift */; };
+		1C9AF992C79F9F46BB71E12D071A9AB7 /* FoldingCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF17EE9328585B1F004D98B38606A17 /* FoldingCell-dummy.m */; };
+		202B881DE2D486E7AEB1CC66621531D1 /* Pods-Prototype-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFBF81A61C5462A9CD706EC004667C2 /* Pods-Prototype-dummy.m */; };
+		220A91F8CE8669B742B00CD3C81C3910 /* LTMorphingLabel+Anvil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2465263B817F53DB4CA0E8534438B8 /* LTMorphingLabel+Anvil.swift */; };
+		2534806772D59757EC8F1CC16528B9D1 /* LTStringDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19CE54D45AA23DA20A3DD8711021CBA /* LTStringDiffResult.swift */; };
+		2BDA7B2E0ABD33D7C2B9B537FB90BCD0 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C1781C913BF48672F562E462E494C6 /* SkyFloatingLabelTextField.swift */; };
+		32CC0900CF9EE7F5031FC765F0A6A630 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5882D37ECFB77A6F6B8CCB6C8E4A7B /* UITextField+fixCaretPosition.swift */; };
+		3338558A2C934602BE6F76866B086D67 /* UICircularProgressRingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA1A93D3BC995A03580A642FDE988BC /* UICircularProgressRingDelegate.swift */; };
+		3663AD5A53A399294F616BBB090BC98C /* LTMorphingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F493E33697EBB11115C17C31B0C9DA /* LTMorphingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AFA54C6DC0961AD0F4CC8A4F1AF915E /* M13CheckboxDisclosurePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FC8B0C29BA6A11997173709F5E430 /* M13CheckboxDisclosurePathGenerator.swift */; };
+		3C7D728E5057D9937D5489945D257304 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51498E299B7CB17BCC8B54F93C150FAA /* QuartzCore.framework */; };
+		3D976DD35C822B9B6971ED06121B4A44 /* M13CheckboxFlatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4732CF1A5BEF9A7C44254150C65DAA5A /* M13CheckboxFlatController.swift */; };
+		3E2FFD3C073383B859F71C2B1411FA89 /* M13Checkbox+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD406F091829CBB635A6AF09667799 /* M13Checkbox+IB.swift */; };
+		3F8B0A80A2276127C916C8EF2CB92C07 /* LTMorphingLabel+Evaporate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2F1DB72D339EF3E3A6E3DAEB2D2A3C /* LTMorphingLabel+Evaporate.swift */; };
+		40897730B01BE8C60FB61A02DD7A1F6A /* M13CheckboxStrokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E8ABA90B3A918EB3D45CB067E6ACCF /* M13CheckboxStrokeController.swift */; };
+		435090E3FE50A2A659F6F29E79B57B16 /* LTMorphingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E04F5B6917354AB3CC356A27B3B1218 /* LTMorphingEffect.swift */; };
+		445378EF15B25DB3370FF77B2F6F42D7 /* M13Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB21B09AFCB355BDE321702A3B0A93 /* M13Checkbox.swift */; };
+		4A2438EA1A9AF7184B7C8E2759A9B96F /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E69D026C034CB8674DC7C4F8BB103C /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		503F70FCC6E8D6394B5243A4FA2BB520 /* LTMorphingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA1B9645DEB497FB6EA7426928B8015 /* LTMorphingLabel-dummy.m */; };
+		514B3CCCC0F8433D22686E596FC967E8 /* Fire.png in Resources */ = {isa = PBXBuildFile; fileRef = E26FCF30C5E17C9C0DC6D380AB53E7BA /* Fire.png */; };
+		556D33B99B64976B2F45B25C99B5923E /* LTMorphingLabel+Burn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B549CFB12171A4090AF5659C471B1585 /* LTMorphingLabel+Burn.swift */; };
 		6167155022C80CE8EDC0B551280B5B30 /* Pods-PrototypeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E7FEC418FC624A36434601A3356526 /* Pods-PrototypeUITests-dummy.m */; };
+		660A15F958AE1A554DB1F32133B5D8F1 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4EA387AE729F87EC8716EB86A072D3 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
 		6A535A0C83A77A5AC133E6BE4D5517DD /* Pods-PrototypeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2AC6B8604FCDF94B5CFF5AAA6DA30E /* Pods-PrototypeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A62EC0768016A1AF4A71794C0687E48 /* UICircularProgressRingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456E74FCD2618CE5DE824BB9FF107777 /* UICircularProgressRingLayer.swift */; };
-		6C2F96F1D97CEE4C463FF67DE81791A2 /* LTMorphingLabel+Sparkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1AD12BD1BED207B2D92D05B9F5743B /* LTMorphingLabel+Sparkle.swift */; };
-		6C4F33723E922B3668D02B9DB0DDA879 /* LTEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E7BF37D75D416B781E97B05A792BC2 /* LTEmitterView.swift */; };
-		713768DA2CB74E729CF215D49E6B6005 /* LTCharacterLimbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E41046192F93B57719CFF1F17D93E2D /* LTCharacterLimbo.swift */; };
-		769B30DC6EF0B28BD42E068863E628B5 /* Pods-Prototype-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFBF81A61C5462A9CD706EC004667C2 /* Pods-Prototype-dummy.m */; };
-		7D15D8DD9BC19EAF886F9E3BF14279DD /* LTCharacterDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89631FCC2E938694E2BE7CCAEFA7C78A /* LTCharacterDiffResult.swift */; };
-		7EDFC09013555AD23C86D8E19E78DB7E /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E0C4E089322F953EF4FC5C65FEE27C /* UITextField+fixCaretPosition.swift */; };
-		861281D2AED3C4F7A05C98BD2E496575 /* LTEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA404A89B50081CDCAA59C7A9BB24CBE /* LTEasing.swift */; };
-		93224DE4CB7E0EF0FB294A7D62277B6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
-		9C1F2A5C483E99BD4D1C7E2ABF21B5FC /* LTMorphingLabel+Fall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7269F1A100825256A775EDAD6A4F4 /* LTMorphingLabel+Fall.swift */; };
-		A2EFE55E2C0A1C10C7A5367B47C7D562 /* LTMorphingLabel+Pixelate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4280E09799D53E6420C9CFCD0C0E1857 /* LTMorphingLabel+Pixelate.swift */; };
-		A316695F1232110AF041937FF295D85B /* UICircularProgressRing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3AE920053E32FE7680604BEF3F13CA /* UICircularProgressRing-dummy.m */; };
-		A82CAB41E30E1A5D25B22F5B5C9CC8F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
-		B03B5CC4D259EEC129F8DCF35675ECDD /* LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF7728F8D0EBB2A7AC3BA7771C3D9B9 /* LTMorphingLabel.swift */; };
-		B099B8D0D3BCB8108ECF915844AE5A6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
-		BB2873D1E6440D5510A3E40A1F0D38A3 /* LTMorphingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87F053E5550E5CBC76DFA18EC03660BD /* LTMorphingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF2ECE2D3D0C59FA6183504D59652ABE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
-		C025052F8819DF1149FDFA278F08ABE7 /* Fragment.png in Resources */ = {isa = PBXBuildFile; fileRef = FC275CFF22FD22E96DF57B95624FBE1B /* Fragment.png */; };
-		C0A5D393FE99D1B51E72C294FE24C7AE /* FoldingCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8DE325F49EFD823044531B2C3187814 /* FoldingCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3B9F1C5F59FBDA935751CA952D09330 /* Smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = D71E0F07AAB4703B2475FFA264527C37 /* Smoke.png */; };
-		D3F3C9EA60B71949E657AA1FE14A561D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		6B7F6283CE6F6418FD195E43D2216FBF /* M13Checkbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A4D7325CB63215297CAB7B3B2E634BE /* M13Checkbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C2F96F1D97CEE4C463FF67DE81791A2 /* LTMorphingLabel+Sparkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93FD9EFC3B273FBCA31847A3F0FBB38 /* LTMorphingLabel+Sparkle.swift */; };
+		6C4F33723E922B3668D02B9DB0DDA879 /* LTEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7352D1198D80611DFB88302671FC9695 /* LTEmitterView.swift */; };
+		713768DA2CB74E729CF215D49E6B6005 /* LTCharacterLimbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E6636D461E7844A74FD7ACC7528847 /* LTCharacterLimbo.swift */; };
+		76D3E2602CFAE6474D2DFA89F5328A24 /* M13CheckboxPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB472478226D9BF9FD36567B7921104B /* M13CheckboxPathGenerator.swift */; };
+		7D15D8DD9BC19EAF886F9E3BF14279DD /* LTCharacterDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EC4F92DF80512D0B99408C2BC2A185 /* LTCharacterDiffResult.swift */; };
+		80CD994ABA1A2B01AD1838A4D4BB794C /* M13CheckboxFillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF39A9D2C73C0B37C15E6D50E2291F0 /* M13CheckboxFillController.swift */; };
+		80E34254247C5B1984E2FB9EC58774E4 /* M13CheckboxDotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA41CE9611D53F5ED588D59A187093B7 /* M13CheckboxDotController.swift */; };
+		85CB53B9E438E280DA1690CCFD778689 /* M13CheckboxRadioPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782557C20D4EAC67C86DB203BE1F09DE /* M13CheckboxRadioPathGenerator.swift */; };
+		861281D2AED3C4F7A05C98BD2E496575 /* LTEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E3D4D7BA9B3D41019990E1B5C88E61 /* LTEasing.swift */; };
+		8645E2F4E7BA0835E3001C43D64E6BDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */; };
+		86C713C329C0814CB0ECCC0FFD4EF091 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1FD743D031D373EDF29CC526F758E2 /* UIKit.framework */; };
+		8ED3FB14D1852DD05FDF6E23E94A4657 /* M13CheckboxAddRemovePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A67B4CF4AFDD4BFAB28E4F7E96B893 /* M13CheckboxAddRemovePathGenerator.swift */; };
+		9293930015857E48CB9751C8EDA5F5F0 /* UICircularProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD17D21CB7647705527646443487867 /* UICircularProgressRingView.swift */; };
+		93224DE4CB7E0EF0FB294A7D62277B6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */; };
+		99F7BB4CB99CB1F1F573431E8BE8D809 /* UICircularProgressRing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC44D50DCDA26482C59F60A71337AB9 /* UICircularProgressRing-dummy.m */; };
+		9C1F2A5C483E99BD4D1C7E2ABF21B5FC /* LTMorphingLabel+Fall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4760D2AF1659000640A43B58EE3804D0 /* LTMorphingLabel+Fall.swift */; };
+		A2EFE55E2C0A1C10C7A5367B47C7D562 /* LTMorphingLabel+Pixelate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB50DBDF70CBC911D800C1B84E0750A3 /* LTMorphingLabel+Pixelate.swift */; };
+		A82CAB41E30E1A5D25B22F5B5C9CC8F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */; };
+		A9421DA8DA9BEA03D17E0DEBB32BEA0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */; };
+		AAE54CDA46FD620F4BC54BC583EA255C /* M13Checkbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A66F901A1606B41FF4DB1B7F955D06 /* M13Checkbox-dummy.m */; };
+		AC3809C0D72C84E9F1E59D6514CCE655 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */; };
+		B03B5CC4D259EEC129F8DCF35675ECDD /* LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC24F8F01A02BD6D5A68254AE0564A34 /* LTMorphingLabel.swift */; };
+		B099B8D0D3BCB8108ECF915844AE5A6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */; };
+		BB2873D1E6440D5510A3E40A1F0D38A3 /* LTMorphingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96603BB5246C231F270C1CA40CE4D2E9 /* LTMorphingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCB82BDDA7C30F0B0AFE479CC479B522 /* M13CheckboxExpandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB73ECEC7F75C3722C1BF798B00DE83 /* M13CheckboxExpandController.swift */; };
+		BD714DCB6CF91532C1A530C33F2ED2E8 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5152F37D10E6CEFCF3735B551493672 /* SkyFloatingLabelTextField-dummy.m */; };
+		C025052F8819DF1149FDFA278F08ABE7 /* Fragment.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3B00F900D308955E2568D698862980 /* Fragment.png */; };
+		C0A5D393FE99D1B51E72C294FE24C7AE /* FoldingCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D56F72F8CA860F0856A83AAFE451273 /* FoldingCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C277B9EAC728D880FF1F15EE98C8B200 /* M13CheckboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599507018FE8FF77DA069C491BA6DBC1 /* M13CheckboxController.swift */; };
+		C3B9F1C5F59FBDA935751CA952D09330 /* Smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5588C7280B147E02362EF32CA34F31 /* Smoke.png */; };
+		C6D0B50C214C9E7CC815F2773D702779 /* M13CheckboxAnimationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35155FBFC7522100FFDAAD2AFC77D8AF /* M13CheckboxAnimationGenerator.swift */; };
+		C85C1170ADDE3E04A0E9C9B6385BE5BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8EF2301073B01E30612B5B1BD94446 /* CoreGraphics.framework */; };
+		C8D41C0D4E89BE8510BA40F04EFF4FA8 /* M13CheckboxCheckPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FC9313A192C9CC926AE74784009B79 /* M13CheckboxCheckPathGenerator.swift */; };
+		D209D707CAFDBB9971AB25D1216939BF /* Pods-Prototype-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D3DEB3B5B93C220D529490680BDE12 /* Pods-Prototype-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6039515F84B2167BBAC8D1CE12A5F4E /* M13CheckboxGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF16D197D87F5922678056468F29083 /* M13CheckboxGestureRecognizer.swift */; };
 		D8450358BCC0FE5041DF696882E9CAD0 /* Pods-PrototypeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F421C03DD270209F97FA9F650421AA4C /* Pods-PrototypeTests-dummy.m */; };
 		DA06ADB1014B657F8419058F3C9C506A /* Pods-PrototypeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DD3644F5F6AF209D46382C409B2C9E /* Pods-PrototypeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0B66BD63A377075A7987E1C00544D23 /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D56C6E54036B255FF009D1498A72BA /* FoldingCell.swift */; };
-		F8C860F4915E90D3859833CF69D64564 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BA270322E96B2CCB777C26C639D51D /* SkyFloatingLabelTextField.swift */; };
-		F95D41C5B434547597F053486620C965 /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = 741EC813BD56704192095C257AED78CD /* Sparkle.png */; };
-		FADB75FE605143CACC82E5205B4BE49B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		E0B66BD63A377075A7987E1C00544D23 /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEF2F45FBEA9295B6A03336FF066F2 /* FoldingCell.swift */; };
+		F7A5B0214108C732898DD2C00BA6FE56 /* M13CheckboxBounceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46A458F6E3766F3BF5E9150FB5D8A1D /* M13CheckboxBounceController.swift */; };
+		F88A2CE0FBCB7AE87509F19E6D898E45 /* UICircularProgressRing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F7D18ED674CA984AD20AC8F154FF9D /* UICircularProgressRing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F95D41C5B434547597F053486620C965 /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A75F8575582304014BB998CB4BB585 /* Sparkle.png */; };
+		FA2B271AAF040F6C1B860C6C3DF0558F /* M13CheckboxSpiralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A6E59044D8207CDD48B27BEA7AFE7E /* M13CheckboxSpiralController.swift */; };
+		FF552F280FB82163BB7BD0740A763693 /* UICircularProgressRing.h in Headers */ = {isa = PBXBuildFile; fileRef = 028823835FFC724624C944598B07DD1A /* UICircularProgressRing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFF489DE367C237C0E8F7E4442DA06D7 /* M13CheckboxFadeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42266DDFB9A5AC694B442E3AD4DF967C /* M13CheckboxFadeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1806976D370A79E956EC05CA5F89A0F7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3342D6F9D5ED5390D36CA0576C89B2E8;
-			remoteInfo = SkyFloatingLabelTextField;
-		};
-		4BA448C1AA6BD5F1C0A9DB303303661B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4C69BF3EF4CE81852226B9442B0C2DF4;
-			remoteInfo = LTMorphingLabel;
-		};
-		74A1A52F1D6F4EDCE9A636DA30A921BA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4E60AB5C116563040145F6AFCE090F7F;
-			remoteInfo = UICircularProgressRing;
-		};
-		871978EE923A8B30DCDFD6E1A7E5BDB9 /* PBXContainerItemProxy */ = {
+		42B62610F88B779975B0AE410CFE18AB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B626E472969D6F87698AF0041EAAFC38;
 			remoteInfo = FoldingCell;
 		};
+		5C154435BFD73C3A223F643F7FDB8763 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C69BF3EF4CE81852226B9442B0C2DF4;
+			remoteInfo = LTMorphingLabel;
+		};
+		6C3E19739D3A11119EFDC9BD56921355 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20A9DD9ABBF08BC57372A26C35327BF1;
+			remoteInfo = M13Checkbox;
+		};
+		AC9864C7987371D7266F9B789298E252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5828EF1F07FBE8B0C824AF110229C51A;
+			remoteInfo = SkyFloatingLabelTextField;
+		};
+		B93A17BB33B4F02D349F76C49731C134 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F04EEEDC9F45A5DF20200FCDD227D13;
+			remoteInfo = UICircularProgressRing;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		019EBE7D99BD9B6379DA00FA174BB2E2 /* FoldingCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FoldingCell.modulemap; sourceTree = "<group>"; };
-		034C67812A2EB758D4874B41D75D4818 /* Fire.png */ = {isa = PBXFileReference; includeInIndex = 1; name = Fire.png; path = LTMorphingLabel/Particles/Fire.png; sourceTree = "<group>"; };
+		028823835FFC724624C944598B07DD1A /* UICircularProgressRing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UICircularProgressRing.h; path = UICircularProgressRing/UICircularProgressRing.h; sourceTree = "<group>"; };
+		043FC8B0C29BA6A11997173709F5E430 /* M13CheckboxDisclosurePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDisclosurePathGenerator.swift; path = Sources/Paths/M13CheckboxDisclosurePathGenerator.swift; sourceTree = "<group>"; };
 		08892E31773661E2D109E998A0E82644 /* Pods-PrototypeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PrototypeTests-frameworks.sh"; sourceTree = "<group>"; };
-		088D25E4C49977838C7231BF6EEC7DCB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09E0C4E089322F953EF4FC5C65FEE27C /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
-		0A5CD16A632954B15D249DED32B8449A /* LTMorphingLabel+Anvil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Anvil.swift"; path = "LTMorphingLabel/LTMorphingLabel+Anvil.swift"; sourceTree = "<group>"; };
-		0A8B8E075C7866304E85DE81082C2885 /* LTMorphingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTMorphingLabel.xcconfig; sourceTree = "<group>"; };
 		0BEBF560BD3C7A26A12B75DEAFFEC4AB /* Pods-Prototype-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Prototype-resources.sh"; sourceTree = "<group>"; };
+		0CFB6F7A5520ED13D4AFEB29F1B2222D /* M13Checkbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.xcconfig; sourceTree = "<group>"; };
+		0D8EF2301073B01E30612B5B1BD94446 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		0EA1A93D3BC995A03580A642FDE988BC /* UICircularProgressRingDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingDelegate.swift; path = UICircularProgressRing/UICircularProgressRingDelegate.swift; sourceTree = "<group>"; };
 		0ED93906871D38EBA71EDB9200E60889 /* Pods-PrototypeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PrototypeTests-resources.sh"; sourceTree = "<group>"; };
-		13E7BF37D75D416B781E97B05A792BC2 /* LTEmitterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTEmitterView.swift; path = LTMorphingLabel/LTEmitterView.swift; sourceTree = "<group>"; };
 		1584E89237A8762DC4AEF3CFA92DFA0C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1756C4DC6329DCC9FAB48CD67BCF3DAC /* LTMorphingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTMorphingLabel-prefix.pch"; sourceTree = "<group>"; };
-		18B7269F1A100825256A775EDAD6A4F4 /* LTMorphingLabel+Fall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Fall.swift"; path = "LTMorphingLabel/LTMorphingLabel+Fall.swift"; sourceTree = "<group>"; };
-		18C1BC05AE0DA20F6801A5BBB62E5FB4 /* LTMorphingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LTMorphingLabel.framework; path = LTMorphingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		173747381129226855D24CF5C14FC46F /* LTMorphingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LTMorphingLabel.framework; path = LTMorphingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A66F901A1606B41FF4DB1B7F955D06 /* M13Checkbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13Checkbox-dummy.m"; sourceTree = "<group>"; };
+		1C9F115403E8A87D37B1C6EA6A96E740 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EC55DD9D63DEB10931070289F7325B4 /* Pods-PrototypeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PrototypeUITests.modulemap"; sourceTree = "<group>"; };
 		1F000C566069083EE6AB32CE156C8E7F /* Pods-PrototypeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PrototypeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		21546833C42DB2A25FC930C31595CDF9 /* Pods-Prototype.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Prototype.debug.xcconfig"; sourceTree = "<group>"; };
+		226DF94147501D67339FC3428DEF1DE1 /* M13Checkbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = M13Checkbox.modulemap; sourceTree = "<group>"; };
+		2D4B4EB12401C4C9D6554123A21BBCF1 /* FoldingCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FoldingCell.framework; path = FoldingCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E2F1DB72D339EF3E3A6E3DAEB2D2A3C /* LTMorphingLabel+Evaporate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Evaporate.swift"; path = "LTMorphingLabel/LTMorphingLabel+Evaporate.swift"; sourceTree = "<group>"; };
 		31B8D1825D49D6A5C83C2588C6CF4794 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3212FC1AEB08415FAB099924B866F3B7 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
-		39F62ACECB13DDFC1A25CE197B39C064 /* UICircularProgressRingDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingDelegate.swift; path = UICircularProgressRing/UICircularProgressRingDelegate.swift; sourceTree = "<group>"; };
+		35155FBFC7522100FFDAAD2AFC77D8AF /* M13CheckboxAnimationGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAnimationGenerator.swift; path = Sources/M13CheckboxAnimationGenerator.swift; sourceTree = "<group>"; };
+		38EC4F92DF80512D0B99408C2BC2A185 /* LTCharacterDiffResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTCharacterDiffResult.swift; path = LTMorphingLabel/LTCharacterDiffResult.swift; sourceTree = "<group>"; };
+		3A4D7325CB63215297CAB7B3B2E634BE /* M13Checkbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-umbrella.h"; sourceTree = "<group>"; };
 		3A975548BC0E14015A5E5C52E5276997 /* Pods-PrototypeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PrototypeTests.modulemap"; sourceTree = "<group>"; };
-		3E014F70B29BD368A014453EBBF99565 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
-		3E7A46D609B0579D29C64C018BFAE3FF /* UICircularProgressRing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UICircularProgressRing.xcconfig; sourceTree = "<group>"; };
-		417E2C8F49952BF8052CDC16B340247A /* UICircularProgressRing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICircularProgressRing-prefix.pch"; sourceTree = "<group>"; };
-		4280E09799D53E6420C9CFCD0C0E1857 /* LTMorphingLabel+Pixelate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Pixelate.swift"; path = "LTMorphingLabel/LTMorphingLabel+Pixelate.swift"; sourceTree = "<group>"; };
-		456E74FCD2618CE5DE824BB9FF107777 /* UICircularProgressRingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingLayer.swift; path = UICircularProgressRing/UICircularProgressRingLayer.swift; sourceTree = "<group>"; };
-		4578D1199B37B867D5F9B62CDF9A7C99 /* UICircularProgressRingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingView.swift; path = UICircularProgressRing/UICircularProgressRingView.swift; sourceTree = "<group>"; };
+		3D0C21844480B55C5435F70CBB17AD9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB73ECEC7F75C3722C1BF798B00DE83 /* M13CheckboxExpandController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxExpandController.swift; path = Sources/Managers/M13CheckboxExpandController.swift; sourceTree = "<group>"; };
+		40E8ABA90B3A918EB3D45CB067E6ACCF /* M13CheckboxStrokeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxStrokeController.swift; path = Sources/Managers/M13CheckboxStrokeController.swift; sourceTree = "<group>"; };
+		40F493E33697EBB11115C17C31B0C9DA /* LTMorphingLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMorphingLabel.h; path = LTMorphingLabel/LTMorphingLabel.h; sourceTree = "<group>"; };
+		42266DDFB9A5AC694B442E3AD4DF967C /* M13CheckboxFadeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFadeController.swift; path = Sources/Managers/M13CheckboxFadeController.swift; sourceTree = "<group>"; };
+		42D9664F96AA2443B9D9C49FBFFEEE6D /* FoldingCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FoldingCell.xcconfig; sourceTree = "<group>"; };
 		45D3DEB3B5B93C220D529490680BDE12 /* Pods-Prototype-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Prototype-umbrella.h"; sourceTree = "<group>"; };
+		4732CF1A5BEF9A7C44254150C65DAA5A /* M13CheckboxFlatController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFlatController.swift; path = Sources/Managers/M13CheckboxFlatController.swift; sourceTree = "<group>"; };
+		4760D2AF1659000640A43B58EE3804D0 /* LTMorphingLabel+Fall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Fall.swift"; path = "LTMorphingLabel/LTMorphingLabel+Fall.swift"; sourceTree = "<group>"; };
 		4A9BBAF32330E5CAA419BDCD64C11480 /* Pods-Prototype-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Prototype-acknowledgements.plist"; sourceTree = "<group>"; };
-		524EB0BF2A5592BDE425252372B051E7 /* FoldingCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FoldingCell.xcconfig; sourceTree = "<group>"; };
-		54E4234A3EA202FF8A9CFBB0D67D3DB7 /* LTStringDiffResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTStringDiffResult.swift; path = LTMorphingLabel/LTStringDiffResult.swift; sourceTree = "<group>"; };
-		5BF675A168132FD52AED630F977FE906 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		5CA08F8180C36BF8A386BAD70BAED223 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69231CE0EFD2BDB57B2257AFE1EFB4A1 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
-		6B7B01398005F46E718B49EF5326C848 /* LTMorphingLabel+Evaporate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Evaporate.swift"; path = "LTMorphingLabel/LTMorphingLabel+Evaporate.swift"; sourceTree = "<group>"; };
+		51498E299B7CB17BCC8B54F93C150FAA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		599507018FE8FF77DA069C491BA6DBC1 /* M13CheckboxController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxController.swift; path = Sources/M13CheckboxController.swift; sourceTree = "<group>"; };
+		59E3D4D7BA9B3D41019990E1B5C88E61 /* LTEasing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTEasing.swift; path = LTMorphingLabel/LTEasing.swift; sourceTree = "<group>"; };
+		5B5271E6866C1D9A0DE7E81A195FE12F /* Pods_Prototype.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Prototype.framework; path = "Pods-Prototype.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6DFBF81A61C5462A9CD706EC004667C2 /* Pods-Prototype-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Prototype-dummy.m"; sourceTree = "<group>"; };
-		6E41046192F93B57719CFF1F17D93E2D /* LTCharacterLimbo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTCharacterLimbo.swift; path = LTMorphingLabel/LTCharacterLimbo.swift; sourceTree = "<group>"; };
-		6FCA0CABFE970C7B4EB943EE143ED8B1 /* UICircularProgressRing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UICircularProgressRing.h; path = UICircularProgressRing/UICircularProgressRing.h; sourceTree = "<group>"; };
-		71F08A914301FA5A7E6FAC1FBDAD9F01 /* LTMorphingLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMorphingLabel.h; path = LTMorphingLabel/LTMorphingLabel.h; sourceTree = "<group>"; };
-		7383575B0AECED227DFDEF45E9F08370 /* UICircularProgressRing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UICircularProgressRing.modulemap; sourceTree = "<group>"; };
-		73BA270322E96B2CCB777C26C639D51D /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
-		741EC813BD56704192095C257AED78CD /* Sparkle.png */ = {isa = PBXFileReference; includeInIndex = 1; name = Sparkle.png; path = LTMorphingLabel/Particles/Sparkle.png; sourceTree = "<group>"; };
-		745AB3CEBE8C0BC69955E47CF6F554A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EA1B9645DEB497FB6EA7426928B8015 /* LTMorphingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTMorphingLabel-dummy.m"; sourceTree = "<group>"; };
+		6EF16D197D87F5922678056468F29083 /* M13CheckboxGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxGestureRecognizer.swift; path = Sources/M13CheckboxGestureRecognizer.swift; sourceTree = "<group>"; };
+		6F2E3F10209343DF7FFC305454111347 /* UICircularProgressRing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICircularProgressRing-prefix.pch"; sourceTree = "<group>"; };
+		6F5EC3DCA5FE4C59073A55707B3BE121 /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = M13Checkbox.framework; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7352D1198D80611DFB88302671FC9695 /* LTEmitterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTEmitterView.swift; path = LTMorphingLabel/LTEmitterView.swift; sourceTree = "<group>"; };
+		73C9AD21D1CAC2CFFBE759AEE730ED01 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
+		75E3929F0AF05B85B673B99D84885988 /* UICircularProgressRingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingLayer.swift; path = UICircularProgressRing/UICircularProgressRingLayer.swift; sourceTree = "<group>"; };
+		782557C20D4EAC67C86DB203BE1F09DE /* M13CheckboxRadioPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxRadioPathGenerator.swift; path = Sources/Paths/M13CheckboxRadioPathGenerator.swift; sourceTree = "<group>"; };
+		78A75F8575582304014BB998CB4BB585 /* Sparkle.png */ = {isa = PBXFileReference; includeInIndex = 1; name = Sparkle.png; path = LTMorphingLabel/Particles/Sparkle.png; sourceTree = "<group>"; };
 		7D38A7D3629CC5551A038A3480B74459 /* Pods-PrototypeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrototypeUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		7F3AE920053E32FE7680604BEF3F13CA /* UICircularProgressRing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICircularProgressRing-dummy.m"; sourceTree = "<group>"; };
-		8694730EEC81DEAE16B89556E620C7CF /* LTMorphingLabel+Burn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Burn.swift"; path = "LTMorphingLabel/LTMorphingLabel+Burn.swift"; sourceTree = "<group>"; };
-		87F053E5550E5CBC76DFA18EC03660BD /* LTMorphingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTMorphingLabel-umbrella.h"; sourceTree = "<group>"; };
-		89631FCC2E938694E2BE7CCAEFA7C78A /* LTCharacterDiffResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTCharacterDiffResult.swift; path = LTMorphingLabel/LTCharacterDiffResult.swift; sourceTree = "<group>"; };
-		8D1AD12BD1BED207B2D92D05B9F5743B /* LTMorphingLabel+Sparkle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Sparkle.swift"; path = "LTMorphingLabel/LTMorphingLabel+Sparkle.swift"; sourceTree = "<group>"; };
-		90786BBD4935D6206206415BD2A39FBD /* Pods_PrototypeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PrototypeUITests.framework; path = "Pods-PrototypeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		916087C2E437249799197211D9C48797 /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
+		84EB21B09AFCB355BDE321702A3B0A93 /* M13Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13Checkbox.swift; path = Sources/M13Checkbox.swift; sourceTree = "<group>"; };
+		8517109DE9042BA50A0E3D53E93444ED /* Pods_PrototypeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PrototypeUITests.framework; path = "Pods-PrototypeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E04F5B6917354AB3CC356A27B3B1218 /* LTMorphingEffect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTMorphingEffect.swift; path = LTMorphingLabel/LTMorphingEffect.swift; sourceTree = "<group>"; };
+		8EAC7B8CFE6B536AA8DB419AF485E118 /* FoldingCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoldingCell-prefix.pch"; sourceTree = "<group>"; };
 		922D0961FD032DC7B7D2A5AD6AA460F0 /* Pods-PrototypeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrototypeTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93DD3644F5F6AF209D46382C409B2C9E /* Pods-PrototypeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PrototypeTests-umbrella.h"; sourceTree = "<group>"; };
-		9469720127C2A1506240057921EFDBDD /* Pods_PrototypeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PrototypeTests.framework; path = "Pods-PrototypeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96603BB5246C231F270C1CA40CE4D2E9 /* LTMorphingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTMorphingLabel-umbrella.h"; sourceTree = "<group>"; };
+		96E69D026C034CB8674DC7C4F8BB103C /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
 		98E7FEC418FC624A36434601A3356526 /* Pods-PrototypeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PrototypeUITests-dummy.m"; sourceTree = "<group>"; };
 		98E8D3B05153B6958F23803E348B5414 /* Pods-PrototypeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrototypeTests.release.xcconfig"; sourceTree = "<group>"; };
+		9CF17EE9328585B1F004D98B38606A17 /* FoldingCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FoldingCell-dummy.m"; sourceTree = "<group>"; };
+		9D56F72F8CA860F0856A83AAFE451273 /* FoldingCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoldingCell-umbrella.h"; sourceTree = "<group>"; };
 		9DC228D524A3653A6C6383EE230CC796 /* Pods-PrototypeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PrototypeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9DF39A9D2C73C0B37C15E6D50E2291F0 /* M13CheckboxFillController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFillController.swift; path = Sources/Managers/M13CheckboxFillController.swift; sourceTree = "<group>"; };
+		9E343CB09B912D569A56D3D7D335511D /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		9F5882D37ECFB77A6F6B8CCB6C8E4A7B /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		A0E6636D461E7844A74FD7ACC7528847 /* LTCharacterLimbo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTCharacterLimbo.swift; path = LTMorphingLabel/LTCharacterLimbo.swift; sourceTree = "<group>"; };
+		A19CE54D45AA23DA20A3DD8711021CBA /* LTStringDiffResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTStringDiffResult.swift; path = LTMorphingLabel/LTStringDiffResult.swift; sourceTree = "<group>"; };
 		A378CE87A877173EA8EE27C2501EF889 /* Pods-PrototypeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrototypeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A65731B96164352624B1F5678C79BEDF /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
-		A93EB9401C2CA2808C7BB77C77A78A87 /* FoldingCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoldingCell-prefix.pch"; sourceTree = "<group>"; };
-		B0D56C6E54036B255FF009D1498A72BA /* FoldingCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoldingCell.swift; path = FoldingCell/FoldingCell/FoldingCell/FoldingCell.swift; sourceTree = "<group>"; };
+		A6C1781C913BF48672F562E462E494C6 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		AD2465263B817F53DB4CA0E8534438B8 /* LTMorphingLabel+Anvil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Anvil.swift"; path = "LTMorphingLabel/LTMorphingLabel+Anvil.swift"; sourceTree = "<group>"; };
+		AEA6E22BF80B06B489F3C29DF58B7D00 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B098E658E1298273B48CEDA9E3B329B6 /* LTMorphingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTMorphingLabel.xcconfig; sourceTree = "<group>"; };
 		B25AF9D7E77F531CAA3BA680F1CAA5EE /* Pods-Prototype-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Prototype-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B2BE2D67A76C9B29609224D77AE9E76B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4571F5BBA53192735B6681473E5D779 /* FoldingCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FoldingCell.framework; path = FoldingCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2CCC57783AFF17AAC0E37132FAAD7C5 /* UICircularProgressRing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UICircularProgressRing.modulemap; sourceTree = "<group>"; };
+		B420BD768D5683A12416D328D2E4348C /* Pods_PrototypeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PrototypeTests.framework; path = "Pods-PrototypeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46A458F6E3766F3BF5E9150FB5D8A1D /* M13CheckboxBounceController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxBounceController.swift; path = Sources/Managers/M13CheckboxBounceController.swift; sourceTree = "<group>"; };
+		B549CFB12171A4090AF5659C471B1585 /* LTMorphingLabel+Burn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Burn.swift"; path = "LTMorphingLabel/LTMorphingLabel+Burn.swift"; sourceTree = "<group>"; };
+		B62DC2B8C6C91BE2965CD31C2456EB63 /* FoldingCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FoldingCell.modulemap; sourceTree = "<group>"; };
+		B717EE859DC9A4E470CC3EF819FAA74C /* UICircularProgressRing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UICircularProgressRing.xcconfig; sourceTree = "<group>"; };
+		BA2F689008CE8C529BF02EDCA9592512 /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
+		BA41CE9611D53F5ED588D59A187093B7 /* M13CheckboxDotController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotController.swift; path = Sources/Managers/M13CheckboxDotController.swift; sourceTree = "<group>"; };
 		BA54406076E5FF4252C30EECC8FC5CE3 /* Pods-PrototypeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrototypeUITests.release.xcconfig"; sourceTree = "<group>"; };
-		BD54F0C94B77A01A74DF1D49569E6003 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22334B4A714C9D8E1B9A91280867719 /* Pods-PrototypeUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PrototypeUITests-resources.sh"; sourceTree = "<group>"; };
 		C59A4D57954C10E4D2FC3292AC5786C9 /* Pods-PrototypeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrototypeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C6BD5AFCFDBDCB6D9790BC8106834245 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
-		C8A4E6018290030176FD4221B89B8B11 /* Pods_Prototype.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Prototype.framework; path = "Pods-Prototype.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6EEF2F45FBEA9295B6A03336FF066F2 /* FoldingCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoldingCell.swift; path = FoldingCell/FoldingCell/FoldingCell/FoldingCell.swift; sourceTree = "<group>"; };
+		C728A85F610194B0794BC905CCDF857E /* LTMorphingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTMorphingLabel-prefix.pch"; sourceTree = "<group>"; };
+		C823DEE38FC71DDF29BE8FFA26ED9AAC /* M13Checkbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-prefix.pch"; sourceTree = "<group>"; };
+		C82E3E3C932BC6C2A7E7FEB3C48FD664 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD17D21CB7647705527646443487867 /* UICircularProgressRingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingView.swift; path = UICircularProgressRing/UICircularProgressRingView.swift; sourceTree = "<group>"; };
+		CB50DBDF70CBC911D800C1B84E0750A3 /* LTMorphingLabel+Pixelate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Pixelate.swift"; path = "LTMorphingLabel/LTMorphingLabel+Pixelate.swift"; sourceTree = "<group>"; };
+		CC96768080F466BF0E6EC8F4B649302B /* LTMorphingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LTMorphingLabel.modulemap; sourceTree = "<group>"; };
+		CEC44D50DCDA26482C59F60A71337AB9 /* UICircularProgressRing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICircularProgressRing-dummy.m"; sourceTree = "<group>"; };
 		D058111AA69DF4ED3023B0904106953B /* Pods-Prototype-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Prototype-frameworks.sh"; sourceTree = "<group>"; };
-		D1CEDBBF6C6C77D7B6F05B5D53FC5940 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D71E0F07AAB4703B2475FFA264527C37 /* Smoke.png */ = {isa = PBXFileReference; includeInIndex = 1; name = Smoke.png; path = LTMorphingLabel/Particles/Smoke.png; sourceTree = "<group>"; };
-		DBBE7B18707748860CA0105295CE474F /* FoldingCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FoldingCell-dummy.m"; sourceTree = "<group>"; };
-		DCBC30B2665746C9801AC6EE1801802F /* UICircularProgressRing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICircularProgressRing-umbrella.h"; sourceTree = "<group>"; };
-		E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D076A562E5D45D381B2B467A734E2396 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F7D18ED674CA984AD20AC8F154FF9D /* UICircularProgressRing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICircularProgressRing-umbrella.h"; sourceTree = "<group>"; };
+		D93FD9EFC3B273FBCA31847A3F0FBB38 /* LTMorphingLabel+Sparkle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Sparkle.swift"; path = "LTMorphingLabel/LTMorphingLabel+Sparkle.swift"; sourceTree = "<group>"; };
+		DDDD406F091829CBB635A6AF09667799 /* M13Checkbox+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "M13Checkbox+IB.swift"; path = "Sources/M13Checkbox+IB.swift"; sourceTree = "<group>"; };
+		DF3B00F900D308955E2568D698862980 /* Fragment.png */ = {isa = PBXFileReference; includeInIndex = 1; name = Fragment.png; path = LTMorphingLabel/Particles/Fragment.png; sourceTree = "<group>"; };
 		E0CE39E6114286ECA4A85705A69A92B9 /* Pods-Prototype.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Prototype.modulemap"; sourceTree = "<group>"; };
-		E81A3BDE3DEC0A393CCB5C030BC592FF /* UICircularProgressRing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UICircularProgressRing.framework; path = UICircularProgressRing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8DE325F49EFD823044531B2C3187814 /* FoldingCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoldingCell-umbrella.h"; sourceTree = "<group>"; };
-		EA404A89B50081CDCAA59C7A9BB24CBE /* LTEasing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTEasing.swift; path = LTMorphingLabel/LTEasing.swift; sourceTree = "<group>"; };
-		EBBBC1E4E125E4409A7A98A116D78B64 /* LTMorphingEffect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTMorphingEffect.swift; path = LTMorphingLabel/LTMorphingEffect.swift; sourceTree = "<group>"; };
+		E26FCF30C5E17C9C0DC6D380AB53E7BA /* Fire.png */ = {isa = PBXFileReference; includeInIndex = 1; name = Fire.png; path = LTMorphingLabel/Particles/Fire.png; sourceTree = "<group>"; };
+		EB472478226D9BF9FD36567B7921104B /* M13CheckboxPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxPathGenerator.swift; path = Sources/Paths/M13CheckboxPathGenerator.swift; sourceTree = "<group>"; };
 		EBBBC434C900ED6F66546864CD82FE00 /* Pods-Prototype.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Prototype.release.xcconfig"; sourceTree = "<group>"; };
 		EBC656F9A58EC86F1846E7D88C45B3ED /* Pods-PrototypeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PrototypeUITests-frameworks.sh"; sourceTree = "<group>"; };
-		EC32878090C4B2B93381956161EC0930 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		ECF7728F8D0EBB2A7AC3BA7771C3D9B9 /* LTMorphingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTMorphingLabel.swift; path = LTMorphingLabel/LTMorphingLabel.swift; sourceTree = "<group>"; };
+		EC1FD743D031D373EDF29CC526F758E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EC24F8F01A02BD6D5A68254AE0564A34 /* LTMorphingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTMorphingLabel.swift; path = LTMorphingLabel/LTMorphingLabel.swift; sourceTree = "<group>"; };
 		ED2AC6B8604FCDF94B5CFF5AAA6DA30E /* Pods-PrototypeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PrototypeUITests-umbrella.h"; sourceTree = "<group>"; };
-		EFC9325017D6D7857C38D2CA53EED235 /* LTMorphingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LTMorphingLabel.modulemap; sourceTree = "<group>"; };
-		EFF8AB1C11EBEB943266DE4BB46388BA /* LTMorphingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTMorphingLabel-dummy.m"; sourceTree = "<group>"; };
+		F1A6E59044D8207CDD48B27BEA7AFE7E /* M13CheckboxSpiralController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralController.swift; path = Sources/Managers/M13CheckboxSpiralController.swift; sourceTree = "<group>"; };
+		F2FC9313A192C9CC926AE74784009B79 /* M13CheckboxCheckPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxCheckPathGenerator.swift; path = Sources/Paths/M13CheckboxCheckPathGenerator.swift; sourceTree = "<group>"; };
 		F421C03DD270209F97FA9F650421AA4C /* Pods-PrototypeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PrototypeTests-dummy.m"; sourceTree = "<group>"; };
-		FC275CFF22FD22E96DF57B95624FBE1B /* Fragment.png */ = {isa = PBXFileReference; includeInIndex = 1; name = Fragment.png; path = LTMorphingLabel/Particles/Fragment.png; sourceTree = "<group>"; };
+		F5152F37D10E6CEFCF3735B551493672 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		F9881E68DF084CD8749E6B9E24BEEC3A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9A67B4CF4AFDD4BFAB28E4F7E96B893 /* M13CheckboxAddRemovePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAddRemovePathGenerator.swift; path = Sources/Paths/M13CheckboxAddRemovePathGenerator.swift; sourceTree = "<group>"; };
+		FAFE0AEC18CC7302DD7E1795E816F06B /* UICircularProgressRing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UICircularProgressRing.framework; path = UICircularProgressRing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5588C7280B147E02362EF32CA34F31 /* Smoke.png */ = {isa = PBXFileReference; includeInIndex = 1; name = Smoke.png; path = LTMorphingLabel/Particles/Smoke.png; sourceTree = "<group>"; };
+		FE4EA387AE729F87EC8716EB86A072D3 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,11 +250,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		352EF4F36E9336F9FDD5080708C59627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9421DA8DA9BEA03D17E0DEBB32BEA0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4DB7D0D56107AEB73B9C575B53DA46F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				93224DE4CB7E0EF0FB294A7D62277B6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53797C5F84C3B718634123945FF8378E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85C1170ADDE3E04A0E9C9B6385BE5BF /* CoreGraphics.framework in Frameworks */,
+				AC3809C0D72C84E9F1E59D6514CCE655 /* Foundation.framework in Frameworks */,
+				86C713C329C0814CB0ECCC0FFD4EF091 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B12846C8FFE54072285357F45208E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160F5A19F976443047C1E228A60DABE3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,14 +292,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79A0094423CE62E5BD251CE4B1C1B85A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3F3C9EA60B71949E657AA1FE14A561D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AD96F706FDC003DBE88EA1448E46FDA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -226,45 +300,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EEB562EEAB667A7B707381D5BBFCBBDD /* Frameworks */ = {
+		C846CA5457515261472D5AC2B4F26784 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF2ECE2D3D0C59FA6183504D59652ABE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F6FD0C917F35FB3886CEB613842E73DD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FADB75FE605143CACC82E5205B4BE49B /* Foundation.framework in Frameworks */,
+				8645E2F4E7BA0835E3001C43D64E6BDF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1131EE9E7C6360C5034CDD9C9E1DA22F /* Support Files */ = {
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				088D25E4C49977838C7231BF6EEC7DCB /* Info.plist */,
-				3212FC1AEB08415FAB099924B866F3B7 /* SkyFloatingLabelTextField.modulemap */,
-				916087C2E437249799197211D9C48797 /* SkyFloatingLabelTextField.xcconfig */,
-				C6BD5AFCFDBDCB6D9790BC8106834245 /* SkyFloatingLabelTextField-dummy.m */,
-				69231CE0EFD2BDB57B2257AFE1EFB4A1 /* SkyFloatingLabelTextField-prefix.pch */,
-				A65731B96164352624B1F5678C79BEDF /* SkyFloatingLabelTextField-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SkyFloatingLabelTextField";
-			sourceTree = "<group>";
-		};
-		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E5E9260013FA223D81B907D9285F6EA1 /* iOS */,
+				2691F93227E549B2A03FB9E6D0C3C623 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		158BDF67CBF0F8D852E0F52BF7CC0757 /* SkyFloatingLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				A6C1781C913BF48672F562E462E494C6 /* SkyFloatingLabelTextField.swift */,
+				FE4EA387AE729F87EC8716EB86A072D3 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				9F5882D37ECFB77A6F6B8CCB6C8E4A7B /* UITextField+fixCaretPosition.swift */,
+				6DE43B3C261126AB96BC91B4735EBE02 /* Support Files */,
+			);
+			name = SkyFloatingLabelTextField;
+			path = SkyFloatingLabelTextField;
+			sourceTree = "<group>";
+		};
+		183CB6E96C7FECAE219BBED52C79231E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9465C897441F298DDC5022081A0AE722 /* FoldingCell */,
+				77559AB300DE52DF57EDDDF4838B2B60 /* LTMorphingLabel */,
+				5A4796D0785E131645FD9062A05DC207 /* M13Checkbox */,
+				158BDF67CBF0F8D852E0F52BF7CC0757 /* SkyFloatingLabelTextField */,
+				4D21653EC584D81C799AA3A49ED13FE4 /* UICircularProgressRing */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		1A60777D31595B059A32E6458E593E96 /* Pods-Prototype */ = {
@@ -285,129 +361,157 @@
 			path = "Target Support Files/Pods-Prototype";
 			sourceTree = "<group>";
 		};
-		1C99B4944592CB2AB1589291174DCE41 /* LTMorphingLabel */ = {
+		2691F93227E549B2A03FB9E6D0C3C623 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				89631FCC2E938694E2BE7CCAEFA7C78A /* LTCharacterDiffResult.swift */,
-				6E41046192F93B57719CFF1F17D93E2D /* LTCharacterLimbo.swift */,
-				EA404A89B50081CDCAA59C7A9BB24CBE /* LTEasing.swift */,
-				13E7BF37D75D416B781E97B05A792BC2 /* LTEmitterView.swift */,
-				EBBBC1E4E125E4409A7A98A116D78B64 /* LTMorphingEffect.swift */,
-				71F08A914301FA5A7E6FAC1FBDAD9F01 /* LTMorphingLabel.h */,
-				ECF7728F8D0EBB2A7AC3BA7771C3D9B9 /* LTMorphingLabel.swift */,
-				0A5CD16A632954B15D249DED32B8449A /* LTMorphingLabel+Anvil.swift */,
-				8694730EEC81DEAE16B89556E620C7CF /* LTMorphingLabel+Burn.swift */,
-				6B7B01398005F46E718B49EF5326C848 /* LTMorphingLabel+Evaporate.swift */,
-				18B7269F1A100825256A775EDAD6A4F4 /* LTMorphingLabel+Fall.swift */,
-				4280E09799D53E6420C9CFCD0C0E1857 /* LTMorphingLabel+Pixelate.swift */,
-				8D1AD12BD1BED207B2D92D05B9F5743B /* LTMorphingLabel+Sparkle.swift */,
-				54E4234A3EA202FF8A9CFBB0D67D3DB7 /* LTStringDiffResult.swift */,
-				77ABB6D269AE9A072B5C40E38AF69179 /* Resources */,
-				4205545E5038F4D8982C1A9F31C7D6EC /* Support Files */,
+				0D8EF2301073B01E30612B5B1BD94446 /* CoreGraphics.framework */,
+				6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */,
+				51498E299B7CB17BCC8B54F93C150FAA /* QuartzCore.framework */,
+				EC1FD743D031D373EDF29CC526F758E2 /* UIKit.framework */,
 			);
-			name = LTMorphingLabel;
-			path = LTMorphingLabel;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		4205545E5038F4D8982C1A9F31C7D6EC /* Support Files */ = {
+		4442AA601A1146E4DEA91FAE8B59F103 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				745AB3CEBE8C0BC69955E47CF6F554A3 /* Info.plist */,
-				EFC9325017D6D7857C38D2CA53EED235 /* LTMorphingLabel.modulemap */,
-				0A8B8E075C7866304E85DE81082C2885 /* LTMorphingLabel.xcconfig */,
-				EFF8AB1C11EBEB943266DE4BB46388BA /* LTMorphingLabel-dummy.m */,
-				1756C4DC6329DCC9FAB48CD67BCF3DAC /* LTMorphingLabel-prefix.pch */,
-				87F053E5550E5CBC76DFA18EC03660BD /* LTMorphingLabel-umbrella.h */,
+				AEA6E22BF80B06B489F3C29DF58B7D00 /* Info.plist */,
+				CC96768080F466BF0E6EC8F4B649302B /* LTMorphingLabel.modulemap */,
+				B098E658E1298273B48CEDA9E3B329B6 /* LTMorphingLabel.xcconfig */,
+				6EA1B9645DEB497FB6EA7426928B8015 /* LTMorphingLabel-dummy.m */,
+				C728A85F610194B0794BC905CCDF857E /* LTMorphingLabel-prefix.pch */,
+				96603BB5246C231F270C1CA40CE4D2E9 /* LTMorphingLabel-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/LTMorphingLabel";
 			sourceTree = "<group>";
 		};
-		643B1E984D1C27CC7DDCE8DA689501A6 /* Support Files */ = {
+		4D21653EC584D81C799AA3A49ED13FE4 /* UICircularProgressRing */ = {
 			isa = PBXGroup;
 			children = (
-				5CA08F8180C36BF8A386BAD70BAED223 /* Info.plist */,
-				7383575B0AECED227DFDEF45E9F08370 /* UICircularProgressRing.modulemap */,
-				3E7A46D609B0579D29C64C018BFAE3FF /* UICircularProgressRing.xcconfig */,
-				7F3AE920053E32FE7680604BEF3F13CA /* UICircularProgressRing-dummy.m */,
-				417E2C8F49952BF8052CDC16B340247A /* UICircularProgressRing-prefix.pch */,
-				DCBC30B2665746C9801AC6EE1801802F /* UICircularProgressRing-umbrella.h */,
+				028823835FFC724624C944598B07DD1A /* UICircularProgressRing.h */,
+				0EA1A93D3BC995A03580A642FDE988BC /* UICircularProgressRingDelegate.swift */,
+				75E3929F0AF05B85B673B99D84885988 /* UICircularProgressRingLayer.swift */,
+				CAD17D21CB7647705527646443487867 /* UICircularProgressRingView.swift */,
+				C63E03F4BDC229B8DC0B29B92DBCC6CA /* Support Files */,
+			);
+			name = UICircularProgressRing;
+			path = UICircularProgressRing;
+			sourceTree = "<group>";
+		};
+		5A4796D0785E131645FD9062A05DC207 /* M13Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				84EB21B09AFCB355BDE321702A3B0A93 /* M13Checkbox.swift */,
+				DDDD406F091829CBB635A6AF09667799 /* M13Checkbox+IB.swift */,
+				F9A67B4CF4AFDD4BFAB28E4F7E96B893 /* M13CheckboxAddRemovePathGenerator.swift */,
+				35155FBFC7522100FFDAAD2AFC77D8AF /* M13CheckboxAnimationGenerator.swift */,
+				B46A458F6E3766F3BF5E9150FB5D8A1D /* M13CheckboxBounceController.swift */,
+				F2FC9313A192C9CC926AE74784009B79 /* M13CheckboxCheckPathGenerator.swift */,
+				599507018FE8FF77DA069C491BA6DBC1 /* M13CheckboxController.swift */,
+				043FC8B0C29BA6A11997173709F5E430 /* M13CheckboxDisclosurePathGenerator.swift */,
+				BA41CE9611D53F5ED588D59A187093B7 /* M13CheckboxDotController.swift */,
+				3DB73ECEC7F75C3722C1BF798B00DE83 /* M13CheckboxExpandController.swift */,
+				42266DDFB9A5AC694B442E3AD4DF967C /* M13CheckboxFadeController.swift */,
+				9DF39A9D2C73C0B37C15E6D50E2291F0 /* M13CheckboxFillController.swift */,
+				4732CF1A5BEF9A7C44254150C65DAA5A /* M13CheckboxFlatController.swift */,
+				6EF16D197D87F5922678056468F29083 /* M13CheckboxGestureRecognizer.swift */,
+				EB472478226D9BF9FD36567B7921104B /* M13CheckboxPathGenerator.swift */,
+				782557C20D4EAC67C86DB203BE1F09DE /* M13CheckboxRadioPathGenerator.swift */,
+				F1A6E59044D8207CDD48B27BEA7AFE7E /* M13CheckboxSpiralController.swift */,
+				40E8ABA90B3A918EB3D45CB067E6ACCF /* M13CheckboxStrokeController.swift */,
+				C4D2C1F4F25365F72A2ECB4CB9B8E8BF /* Support Files */,
+			);
+			name = M13Checkbox;
+			path = M13Checkbox;
+			sourceTree = "<group>";
+		};
+		6DE43B3C261126AB96BC91B4735EBE02 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C82E3E3C932BC6C2A7E7FEB3C48FD664 /* Info.plist */,
+				73C9AD21D1CAC2CFFBE759AEE730ED01 /* SkyFloatingLabelTextField.modulemap */,
+				BA2F689008CE8C529BF02EDCA9592512 /* SkyFloatingLabelTextField.xcconfig */,
+				F5152F37D10E6CEFCF3735B551493672 /* SkyFloatingLabelTextField-dummy.m */,
+				9E343CB09B912D569A56D3D7D335511D /* SkyFloatingLabelTextField-prefix.pch */,
+				96E69D026C034CB8674DC7C4F8BB103C /* SkyFloatingLabelTextField-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/UICircularProgressRing";
+			path = "../Target Support Files/SkyFloatingLabelTextField";
 			sourceTree = "<group>";
 		};
-		716E89A02969A4A4F8534265C008F4E8 /* Support Files */ = {
+		77559AB300DE52DF57EDDDF4838B2B60 /* LTMorphingLabel */ = {
 			isa = PBXGroup;
 			children = (
-				019EBE7D99BD9B6379DA00FA174BB2E2 /* FoldingCell.modulemap */,
-				524EB0BF2A5592BDE425252372B051E7 /* FoldingCell.xcconfig */,
-				DBBE7B18707748860CA0105295CE474F /* FoldingCell-dummy.m */,
-				A93EB9401C2CA2808C7BB77C77A78A87 /* FoldingCell-prefix.pch */,
-				E8DE325F49EFD823044531B2C3187814 /* FoldingCell-umbrella.h */,
-				D1CEDBBF6C6C77D7B6F05B5D53FC5940 /* Info.plist */,
+				38EC4F92DF80512D0B99408C2BC2A185 /* LTCharacterDiffResult.swift */,
+				A0E6636D461E7844A74FD7ACC7528847 /* LTCharacterLimbo.swift */,
+				59E3D4D7BA9B3D41019990E1B5C88E61 /* LTEasing.swift */,
+				7352D1198D80611DFB88302671FC9695 /* LTEmitterView.swift */,
+				8E04F5B6917354AB3CC356A27B3B1218 /* LTMorphingEffect.swift */,
+				40F493E33697EBB11115C17C31B0C9DA /* LTMorphingLabel.h */,
+				EC24F8F01A02BD6D5A68254AE0564A34 /* LTMorphingLabel.swift */,
+				AD2465263B817F53DB4CA0E8534438B8 /* LTMorphingLabel+Anvil.swift */,
+				B549CFB12171A4090AF5659C471B1585 /* LTMorphingLabel+Burn.swift */,
+				2E2F1DB72D339EF3E3A6E3DAEB2D2A3C /* LTMorphingLabel+Evaporate.swift */,
+				4760D2AF1659000640A43B58EE3804D0 /* LTMorphingLabel+Fall.swift */,
+				CB50DBDF70CBC911D800C1B84E0750A3 /* LTMorphingLabel+Pixelate.swift */,
+				D93FD9EFC3B273FBCA31847A3F0FBB38 /* LTMorphingLabel+Sparkle.swift */,
+				A19CE54D45AA23DA20A3DD8711021CBA /* LTStringDiffResult.swift */,
+				C1BDC7B5AA8A413A9FA77117E9B9DE1F /* Resources */,
+				4442AA601A1146E4DEA91FAE8B59F103 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FoldingCell";
-			sourceTree = "<group>";
-		};
-		77ABB6D269AE9A072B5C40E38AF69179 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				034C67812A2EB758D4874B41D75D4818 /* Fire.png */,
-				FC275CFF22FD22E96DF57B95624FBE1B /* Fragment.png */,
-				D71E0F07AAB4703B2475FFA264527C37 /* Smoke.png */,
-				741EC813BD56704192095C257AED78CD /* Sparkle.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		793A4E09FD5BF88192878FA765D7C3EE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B4571F5BBA53192735B6681473E5D779 /* FoldingCell.framework */,
-				18C1BC05AE0DA20F6801A5BBB62E5FB4 /* LTMorphingLabel.framework */,
-				C8A4E6018290030176FD4221B89B8B11 /* Pods_Prototype.framework */,
-				9469720127C2A1506240057921EFDBDD /* Pods_PrototypeTests.framework */,
-				90786BBD4935D6206206415BD2A39FBD /* Pods_PrototypeUITests.framework */,
-				BD54F0C94B77A01A74DF1D49569E6003 /* SkyFloatingLabelTextField.framework */,
-				E81A3BDE3DEC0A393CCB5C030BC592FF /* UICircularProgressRing.framework */,
-			);
-			name = Products;
+			name = LTMorphingLabel;
+			path = LTMorphingLabel;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				CDDACBC4F98CDD0B8F58D9C3D1153A9E /* Pods */,
-				793A4E09FD5BF88192878FA765D7C3EE /* Products */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				183CB6E96C7FECAE219BBED52C79231E /* Pods */,
+				8135C4F4717738AC5968DABF154B9B44 /* Products */,
 				E29DF34F51A646FEA5F7369DB64B2B09 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9F5212E170D1445EE6B3D2C1AD590D1A /* UICircularProgressRing */ = {
+		8135C4F4717738AC5968DABF154B9B44 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6FCA0CABFE970C7B4EB943EE143ED8B1 /* UICircularProgressRing.h */,
-				39F62ACECB13DDFC1A25CE197B39C064 /* UICircularProgressRingDelegate.swift */,
-				456E74FCD2618CE5DE824BB9FF107777 /* UICircularProgressRingLayer.swift */,
-				4578D1199B37B867D5F9B62CDF9A7C99 /* UICircularProgressRingView.swift */,
-				643B1E984D1C27CC7DDCE8DA689501A6 /* Support Files */,
+				2D4B4EB12401C4C9D6554123A21BBCF1 /* FoldingCell.framework */,
+				173747381129226855D24CF5C14FC46F /* LTMorphingLabel.framework */,
+				6F5EC3DCA5FE4C59073A55707B3BE121 /* M13Checkbox.framework */,
+				5B5271E6866C1D9A0DE7E81A195FE12F /* Pods_Prototype.framework */,
+				B420BD768D5683A12416D328D2E4348C /* Pods_PrototypeTests.framework */,
+				8517109DE9042BA50A0E3D53E93444ED /* Pods_PrototypeUITests.framework */,
+				1C9F115403E8A87D37B1C6EA6A96E740 /* SkyFloatingLabelTextField.framework */,
+				FAFE0AEC18CC7302DD7E1795E816F06B /* UICircularProgressRing.framework */,
 			);
-			name = UICircularProgressRing;
-			path = UICircularProgressRing;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		A2FF8B37ADB755DBDBE490ADF40788EE /* FoldingCell */ = {
+		9465C897441F298DDC5022081A0AE722 /* FoldingCell */ = {
 			isa = PBXGroup;
 			children = (
-				B0D56C6E54036B255FF009D1498A72BA /* FoldingCell.swift */,
-				716E89A02969A4A4F8534265C008F4E8 /* Support Files */,
+				C6EEF2F45FBEA9295B6A03336FF066F2 /* FoldingCell.swift */,
+				B859FBFAC1B5A5FB57CCE804510AFA5E /* Support Files */,
 			);
 			name = FoldingCell;
 			path = FoldingCell;
+			sourceTree = "<group>";
+		};
+		B859FBFAC1B5A5FB57CCE804510AFA5E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B62DC2B8C6C91BE2965CD31C2456EB63 /* FoldingCell.modulemap */,
+				42D9664F96AA2443B9D9C49FBFFEEE6D /* FoldingCell.xcconfig */,
+				9CF17EE9328585B1F004D98B38606A17 /* FoldingCell-dummy.m */,
+				8EAC7B8CFE6B536AA8DB419AF485E118 /* FoldingCell-prefix.pch */,
+				9D56F72F8CA860F0856A83AAFE451273 /* FoldingCell-umbrella.h */,
+				F9881E68DF084CD8749E6B9E24BEEC3A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FoldingCell";
 			sourceTree = "<group>";
 		};
 		B9FBCFF530A2E0FE619850A4F9F9F24A /* Pods-PrototypeUITests */ = {
@@ -428,15 +532,43 @@
 			path = "Target Support Files/Pods-PrototypeUITests";
 			sourceTree = "<group>";
 		};
-		CDDACBC4F98CDD0B8F58D9C3D1153A9E /* Pods */ = {
+		C1BDC7B5AA8A413A9FA77117E9B9DE1F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A2FF8B37ADB755DBDBE490ADF40788EE /* FoldingCell */,
-				1C99B4944592CB2AB1589291174DCE41 /* LTMorphingLabel */,
-				F79489C05CC49B4DAB6A6656240687FF /* SkyFloatingLabelTextField */,
-				9F5212E170D1445EE6B3D2C1AD590D1A /* UICircularProgressRing */,
+				E26FCF30C5E17C9C0DC6D380AB53E7BA /* Fire.png */,
+				DF3B00F900D308955E2568D698862980 /* Fragment.png */,
+				FB5588C7280B147E02362EF32CA34F31 /* Smoke.png */,
+				78A75F8575582304014BB998CB4BB585 /* Sparkle.png */,
 			);
-			name = Pods;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C4D2C1F4F25365F72A2ECB4CB9B8E8BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D076A562E5D45D381B2B467A734E2396 /* Info.plist */,
+				226DF94147501D67339FC3428DEF1DE1 /* M13Checkbox.modulemap */,
+				0CFB6F7A5520ED13D4AFEB29F1B2222D /* M13Checkbox.xcconfig */,
+				19A66F901A1606B41FF4DB1B7F955D06 /* M13Checkbox-dummy.m */,
+				C823DEE38FC71DDF29BE8FFA26ED9AAC /* M13Checkbox-prefix.pch */,
+				3A4D7325CB63215297CAB7B3B2E634BE /* M13Checkbox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/M13Checkbox";
+			sourceTree = "<group>";
+		};
+		C63E03F4BDC229B8DC0B29B92DBCC6CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D0C21844480B55C5435F70CBB17AD9D /* Info.plist */,
+				B2CCC57783AFF17AAC0E37132FAAD7C5 /* UICircularProgressRing.modulemap */,
+				B717EE859DC9A4E470CC3EF819FAA74C /* UICircularProgressRing.xcconfig */,
+				CEC44D50DCDA26482C59F60A71337AB9 /* UICircularProgressRing-dummy.m */,
+				6F2E3F10209343DF7FFC305454111347 /* UICircularProgressRing-prefix.pch */,
+				D0F7D18ED674CA984AD20AC8F154FF9D /* UICircularProgressRing-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UICircularProgressRing";
 			sourceTree = "<group>";
 		};
 		E211F0C619C047EA9F576EC424420E3F /* Pods-PrototypeTests */ = {
@@ -467,28 +599,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E5E9260013FA223D81B907D9285F6EA1 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				EC32878090C4B2B93381956161EC0930 /* Foundation.framework */,
-				E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */,
-				5BF675A168132FD52AED630F977FE906 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		F79489C05CC49B4DAB6A6656240687FF /* SkyFloatingLabelTextField */ = {
-			isa = PBXGroup;
-			children = (
-				73BA270322E96B2CCB777C26C639D51D /* SkyFloatingLabelTextField.swift */,
-				3E014F70B29BD368A014453EBBF99565 /* SkyFloatingLabelTextFieldWithIcon.swift */,
-				09E0C4E089322F953EF4FC5C65FEE27C /* UITextField+fixCaretPosition.swift */,
-				1131EE9E7C6360C5034CDD9C9E1DA22F /* Support Files */,
-			);
-			name = SkyFloatingLabelTextField;
-			path = SkyFloatingLabelTextField;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -500,20 +610,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55E48AD807D68C2C1134FFFD91E6D4BE /* Headers */ = {
+		62672C1ECA38F6D518F2F07DE6C16B1E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1331F773C6430403D949483852128F8A /* SkyFloatingLabelTextField-umbrella.h in Headers */,
+				D209D707CAFDBB9971AB25D1216939BF /* Pods-Prototype-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68F2B9DAA38BA65A8137A5CAC8519681 /* Headers */ = {
+		714DC262BF2FB332E82AC2E7CD6D73D1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				509F6A7464DE8B439265CB4BABF3E77A /* UICircularProgressRing-umbrella.h in Headers */,
-				2512FDE63B4301752075AA96FC518701 /* UICircularProgressRing.h in Headers */,
+				6B7F6283CE6F6418FD195E43D2216FBF /* M13Checkbox-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,11 +634,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D616165816EAD6621330928E494904BE /* Headers */ = {
+		805548CB64D1D0362DB0E8FB97C2E5DC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				194C1D2C281A90B09B503DAEA1767400 /* Pods-Prototype-umbrella.h in Headers */,
+				4A2438EA1A9AF7184B7C8E2759A9B96F /* SkyFloatingLabelTextField-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,6 +648,15 @@
 			files = (
 				BB2873D1E6440D5510A3E40A1F0D38A3 /* LTMorphingLabel-umbrella.h in Headers */,
 				3663AD5A53A399294F616BBB090BC98C /* LTMorphingLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D208DE778461E1DCD79588D196A471 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F88A2CE0FBCB7AE87509F19E6D898E45 /* UICircularProgressRing-umbrella.h in Headers */,
+				FF552F280FB82163BB7BD0740A763693 /* UICircularProgressRing.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,25 +671,21 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0F42C8DB6F8FA56E81EF96BA48D5B38F /* Pods-Prototype */ = {
+		20A9DD9ABBF08BC57372A26C35327BF1 /* M13Checkbox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78A3A8974F6F56D745C28F45E80186EA /* Build configuration list for PBXNativeTarget "Pods-Prototype" */;
+			buildConfigurationList = 08913436C5D3DFB2C8CEA353ED9FF003 /* Build configuration list for PBXNativeTarget "M13Checkbox" */;
 			buildPhases = (
-				64FB9423506A360C543289FB71806D53 /* Sources */,
-				79A0094423CE62E5BD251CE4B1C1B85A /* Frameworks */,
-				D616165816EAD6621330928E494904BE /* Headers */,
+				923F4E7F3A2B8E74326EFD309DCEEE04 /* Sources */,
+				53797C5F84C3B718634123945FF8378E /* Frameworks */,
+				714DC262BF2FB332E82AC2E7CD6D73D1 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				74ABB85806CB2C763FFDC83AF6128998 /* PBXTargetDependency */,
-				923CB7D1F06263D309C63FF82377A12E /* PBXTargetDependency */,
-				30C62874CCD610B21A6751A4CB712262 /* PBXTargetDependency */,
-				E5EA663FD492C9C78A33AB9F50DB92E3 /* PBXTargetDependency */,
 			);
-			name = "Pods-Prototype";
-			productName = "Pods-Prototype";
-			productReference = C8A4E6018290030176FD4221B89B8B11 /* Pods_Prototype.framework */;
+			name = M13Checkbox;
+			productName = M13Checkbox;
+			productReference = 6F5EC3DCA5FE4C59073A55707B3BE121 /* M13Checkbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		30E05F30D6ADFC40BB7FC3E8C94AE14C /* Pods-PrototypeUITests */ = {
@@ -588,24 +702,7 @@
 			);
 			name = "Pods-PrototypeUITests";
 			productName = "Pods-PrototypeUITests";
-			productReference = 90786BBD4935D6206206415BD2A39FBD /* Pods_PrototypeUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		3342D6F9D5ED5390D36CA0576C89B2E8 /* SkyFloatingLabelTextField */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6CA1717CA721369D22BA9B53F4595829 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
-			buildPhases = (
-				50E6F2449179979FCD417AB513BD5C7A /* Sources */,
-				F6FD0C917F35FB3886CEB613842E73DD /* Frameworks */,
-				55E48AD807D68C2C1134FFFD91E6D4BE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SkyFloatingLabelTextField;
-			productName = SkyFloatingLabelTextField;
-			productReference = BD54F0C94B77A01A74DF1D49569E6003 /* SkyFloatingLabelTextField.framework */;
+			productReference = 8517109DE9042BA50A0E3D53E93444ED /* Pods_PrototypeUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4C69BF3EF4CE81852226B9442B0C2DF4 /* LTMorphingLabel */ = {
@@ -623,16 +720,33 @@
 			);
 			name = LTMorphingLabel;
 			productName = LTMorphingLabel;
-			productReference = 18C1BC05AE0DA20F6801A5BBB62E5FB4 /* LTMorphingLabel.framework */;
+			productReference = 173747381129226855D24CF5C14FC46F /* LTMorphingLabel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4E60AB5C116563040145F6AFCE090F7F /* UICircularProgressRing */ = {
+		5828EF1F07FBE8B0C824AF110229C51A /* SkyFloatingLabelTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C63FD9C7154F8854EF88779039CF14B /* Build configuration list for PBXNativeTarget "UICircularProgressRing" */;
+			buildConfigurationList = 4B9653F75BF222A42664E9B0B5C74914 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
 			buildPhases = (
-				909990E29544F150F50A16864A752026 /* Sources */,
-				EEB562EEAB667A7B707381D5BBFCBBDD /* Frameworks */,
-				68F2B9DAA38BA65A8137A5CAC8519681 /* Headers */,
+				770DCA8DD302C8156CD2E43129F35352 /* Sources */,
+				64B12846C8FFE54072285357F45208E4 /* Frameworks */,
+				805548CB64D1D0362DB0E8FB97C2E5DC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyFloatingLabelTextField;
+			productName = SkyFloatingLabelTextField;
+			productReference = 1C9F115403E8A87D37B1C6EA6A96E740 /* SkyFloatingLabelTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F04EEEDC9F45A5DF20200FCDD227D13 /* UICircularProgressRing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E726D7098F04EF928CB892BD2C9D95EE /* Build configuration list for PBXNativeTarget "UICircularProgressRing" */;
+			buildPhases = (
+				BBACF8A99E75531FE13A8943B797D6E4 /* Sources */,
+				C846CA5457515261472D5AC2B4F26784 /* Frameworks */,
+				F7D208DE778461E1DCD79588D196A471 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -640,7 +754,7 @@
 			);
 			name = UICircularProgressRing;
 			productName = UICircularProgressRing;
-			productReference = E81A3BDE3DEC0A393CCB5C030BC592FF /* UICircularProgressRing.framework */;
+			productReference = FAFE0AEC18CC7302DD7E1795E816F06B /* UICircularProgressRing.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		80EB465057521537703AFEEAAD746FB1 /* Pods-PrototypeTests */ = {
@@ -657,7 +771,29 @@
 			);
 			name = "Pods-PrototypeTests";
 			productName = "Pods-PrototypeTests";
-			productReference = 9469720127C2A1506240057921EFDBDD /* Pods_PrototypeTests.framework */;
+			productReference = B420BD768D5683A12416D328D2E4348C /* Pods_PrototypeTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98BFEABAA2864F48BFFF1CFDF87D0034 /* Pods-Prototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF34DEC3FCA3816594300C47A5676E1E /* Build configuration list for PBXNativeTarget "Pods-Prototype" */;
+			buildPhases = (
+				AE7192046A88A1E28B4D7685F09CF562 /* Sources */,
+				352EF4F36E9336F9FDD5080708C59627 /* Frameworks */,
+				62672C1ECA38F6D518F2F07DE6C16B1E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				360EFE194BCACD33F56380B39C220275 /* PBXTargetDependency */,
+				C72304E28E770046759D2D7F5AEF9665 /* PBXTargetDependency */,
+				24EE2648FCE0F1AEEF42FE8F76B3BCB7 /* PBXTargetDependency */,
+				85C6938EB64F2E74D0DD48CF99D6D409 /* PBXTargetDependency */,
+				1C10A3E1FB3AC2EFF42D9133C71C64EE /* PBXTargetDependency */,
+			);
+			name = "Pods-Prototype";
+			productName = "Pods-Prototype";
+			productReference = 5B5271E6866C1D9A0DE7E81A195FE12F /* Pods_Prototype.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B626E472969D6F87698AF0041EAAFC38 /* FoldingCell */ = {
@@ -674,7 +810,7 @@
 			);
 			name = FoldingCell;
 			productName = FoldingCell;
-			productReference = B4571F5BBA53192735B6681473E5D779 /* FoldingCell.framework */;
+			productReference = 2D4B4EB12401C4C9D6554123A21BBCF1 /* FoldingCell.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -694,17 +830,18 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 793A4E09FD5BF88192878FA765D7C3EE /* Products */;
+			productRefGroup = 8135C4F4717738AC5968DABF154B9B44 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				B626E472969D6F87698AF0041EAAFC38 /* FoldingCell */,
 				4C69BF3EF4CE81852226B9442B0C2DF4 /* LTMorphingLabel */,
-				0F42C8DB6F8FA56E81EF96BA48D5B38F /* Pods-Prototype */,
+				20A9DD9ABBF08BC57372A26C35327BF1 /* M13Checkbox */,
+				98BFEABAA2864F48BFFF1CFDF87D0034 /* Pods-Prototype */,
 				80EB465057521537703AFEEAAD746FB1 /* Pods-PrototypeTests */,
 				30E05F30D6ADFC40BB7FC3E8C94AE14C /* Pods-PrototypeUITests */,
-				3342D6F9D5ED5390D36CA0576C89B2E8 /* SkyFloatingLabelTextField */,
-				4E60AB5C116563040145F6AFCE090F7F /* UICircularProgressRing */,
+				5828EF1F07FBE8B0C824AF110229C51A /* SkyFloatingLabelTextField */,
+				6F04EEEDC9F45A5DF20200FCDD227D13 /* UICircularProgressRing */,
 			);
 		};
 /* End PBXProject section */
@@ -745,17 +882,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50E6F2449179979FCD417AB513BD5C7A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1278DF4A360A3F7024266B96D9A4BBB2 /* SkyFloatingLabelTextField-dummy.m in Sources */,
-				F8C860F4915E90D3859833CF69D64564 /* SkyFloatingLabelTextField.swift in Sources */,
-				3F059933E4705EF4B128507F4C7189B8 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
-				7EDFC09013555AD23C86D8E19E78DB7E /* UITextField+fixCaretPosition.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		55CF3CF9E6974155797A1FC762BB2B2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -772,22 +898,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64FB9423506A360C543289FB71806D53 /* Sources */ = {
+		770DCA8DD302C8156CD2E43129F35352 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				769B30DC6EF0B28BD42E068863E628B5 /* Pods-Prototype-dummy.m in Sources */,
+				BD714DCB6CF91532C1A530C33F2ED2E8 /* SkyFloatingLabelTextField-dummy.m in Sources */,
+				2BDA7B2E0ABD33D7C2B9B537FB90BCD0 /* SkyFloatingLabelTextField.swift in Sources */,
+				660A15F958AE1A554DB1F32133B5D8F1 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				32CC0900CF9EE7F5031FC765F0A6A630 /* UITextField+fixCaretPosition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		909990E29544F150F50A16864A752026 /* Sources */ = {
+		923F4E7F3A2B8E74326EFD309DCEEE04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A316695F1232110AF041937FF295D85B /* UICircularProgressRing-dummy.m in Sources */,
-				16306CFA379574E49DA71F8CE8EC5F4C /* UICircularProgressRingDelegate.swift in Sources */,
-				6A62EC0768016A1AF4A71794C0687E48 /* UICircularProgressRingLayer.swift in Sources */,
-				2FAECCEE04D4BEA987955653249781E4 /* UICircularProgressRingView.swift in Sources */,
+				3E2FFD3C073383B859F71C2B1411FA89 /* M13Checkbox+IB.swift in Sources */,
+				AAE54CDA46FD620F4BC54BC583EA255C /* M13Checkbox-dummy.m in Sources */,
+				445378EF15B25DB3370FF77B2F6F42D7 /* M13Checkbox.swift in Sources */,
+				8ED3FB14D1852DD05FDF6E23E94A4657 /* M13CheckboxAddRemovePathGenerator.swift in Sources */,
+				C6D0B50C214C9E7CC815F2773D702779 /* M13CheckboxAnimationGenerator.swift in Sources */,
+				F7A5B0214108C732898DD2C00BA6FE56 /* M13CheckboxBounceController.swift in Sources */,
+				C8D41C0D4E89BE8510BA40F04EFF4FA8 /* M13CheckboxCheckPathGenerator.swift in Sources */,
+				C277B9EAC728D880FF1F15EE98C8B200 /* M13CheckboxController.swift in Sources */,
+				3AFA54C6DC0961AD0F4CC8A4F1AF915E /* M13CheckboxDisclosurePathGenerator.swift in Sources */,
+				80E34254247C5B1984E2FB9EC58774E4 /* M13CheckboxDotController.swift in Sources */,
+				BCB82BDDA7C30F0B0AFE479CC479B522 /* M13CheckboxExpandController.swift in Sources */,
+				FFF489DE367C237C0E8F7E4442DA06D7 /* M13CheckboxFadeController.swift in Sources */,
+				80CD994ABA1A2B01AD1838A4D4BB794C /* M13CheckboxFillController.swift in Sources */,
+				3D976DD35C822B9B6971ED06121B4A44 /* M13CheckboxFlatController.swift in Sources */,
+				D6039515F84B2167BBAC8D1CE12A5F4E /* M13CheckboxGestureRecognizer.swift in Sources */,
+				76D3E2602CFAE6474D2DFA89F5328A24 /* M13CheckboxPathGenerator.swift in Sources */,
+				85CB53B9E438E280DA1690CCFD778689 /* M13CheckboxRadioPathGenerator.swift in Sources */,
+				FA2B271AAF040F6C1B860C6C3DF0558F /* M13CheckboxSpiralController.swift in Sources */,
+				40897730B01BE8C60FB61A02DD7A1F6A /* M13CheckboxStrokeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE7192046A88A1E28B4D7685F09CF562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202B881DE2D486E7AEB1CC66621531D1 /* Pods-Prototype-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBACF8A99E75531FE13A8943B797D6E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F7BB4CB99CB1F1F573431E8BE8D809 /* UICircularProgressRing-dummy.m in Sources */,
+				3338558A2C934602BE6F76866B086D67 /* UICircularProgressRingDelegate.swift in Sources */,
+				166E474CD21C76A6896B6C89DF6F875B /* UICircularProgressRingLayer.swift in Sources */,
+				9293930015857E48CB9751C8EDA5F5F0 /* UICircularProgressRingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -803,29 +966,35 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		30C62874CCD610B21A6751A4CB712262 /* PBXTargetDependency */ = {
+		1C10A3E1FB3AC2EFF42D9133C71C64EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SkyFloatingLabelTextField;
-			target = 3342D6F9D5ED5390D36CA0576C89B2E8 /* SkyFloatingLabelTextField */;
-			targetProxy = 1806976D370A79E956EC05CA5F89A0F7 /* PBXContainerItemProxy */;
+			name = UICircularProgressRing;
+			target = 6F04EEEDC9F45A5DF20200FCDD227D13 /* UICircularProgressRing */;
+			targetProxy = B93A17BB33B4F02D349F76C49731C134 /* PBXContainerItemProxy */;
 		};
-		74ABB85806CB2C763FFDC83AF6128998 /* PBXTargetDependency */ = {
+		24EE2648FCE0F1AEEF42FE8F76B3BCB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = M13Checkbox;
+			target = 20A9DD9ABBF08BC57372A26C35327BF1 /* M13Checkbox */;
+			targetProxy = 6C3E19739D3A11119EFDC9BD56921355 /* PBXContainerItemProxy */;
+		};
+		360EFE194BCACD33F56380B39C220275 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FoldingCell;
 			target = B626E472969D6F87698AF0041EAAFC38 /* FoldingCell */;
-			targetProxy = 871978EE923A8B30DCDFD6E1A7E5BDB9 /* PBXContainerItemProxy */;
+			targetProxy = 42B62610F88B779975B0AE410CFE18AB /* PBXContainerItemProxy */;
 		};
-		923CB7D1F06263D309C63FF82377A12E /* PBXTargetDependency */ = {
+		85C6938EB64F2E74D0DD48CF99D6D409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkyFloatingLabelTextField;
+			target = 5828EF1F07FBE8B0C824AF110229C51A /* SkyFloatingLabelTextField */;
+			targetProxy = AC9864C7987371D7266F9B789298E252 /* PBXContainerItemProxy */;
+		};
+		C72304E28E770046759D2D7F5AEF9665 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LTMorphingLabel;
 			target = 4C69BF3EF4CE81852226B9442B0C2DF4 /* LTMorphingLabel */;
-			targetProxy = 4BA448C1AA6BD5F1C0A9DB303303661B /* PBXContainerItemProxy */;
-		};
-		E5EA663FD492C9C78A33AB9F50DB92E3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UICircularProgressRing;
-			target = 4E60AB5C116563040145F6AFCE090F7F /* UICircularProgressRing */;
-			targetProxy = 74A1A52F1D6F4EDCE9A636DA30A921BA /* PBXContainerItemProxy */;
+			targetProxy = 5C154435BFD73C3A223F643F7FDB8763 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -874,37 +1043,75 @@
 			};
 			name = Debug;
 		};
-		28B258501D52AC54BB72E3561973F100 /* Release */ = {
+		0241C69DB86CFE9C95F781C0F7848B9E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E7A46D609B0579D29C64C018BFAE3FF /* UICircularProgressRing.xcconfig */;
+			baseConfigurationReference = 0CFB6F7A5520ED13D4AFEB29F1B2222D /* M13Checkbox.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UICircularProgressRing/UICircularProgressRing-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UICircularProgressRing/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UICircularProgressRing/UICircularProgressRing.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = UICircularProgressRing;
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = M13Checkbox;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		2CD7E834BE967C694BDEF7B071ABE3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21546833C42DB2A25FC930C31595CDF9 /* Pods-Prototype.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Prototype/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Prototype/Pods-Prototype.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Prototype;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		2D872DF6E9086A19A7EEB8F4D24F1043 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -942,42 +1149,9 @@
 			};
 			name = Release;
 		};
-		30BC2E8E23579DD6C880BEF31B5DE1AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 916087C2E437249799197211D9C48797 /* SkyFloatingLabelTextField.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SkyFloatingLabelTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		3A52CEF89D48F0F5968C02E69B65A570 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 524EB0BF2A5592BDE425252372B051E7 /* FoldingCell.xcconfig */;
+			baseConfigurationReference = 42D9664F96AA2443B9D9C49FBFFEEE6D /* FoldingCell.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -998,38 +1172,6 @@
 				MODULEMAP_FILE = "Target Support Files/FoldingCell/FoldingCell.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = FoldingCell;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		419ECF97B4B5CD75603815CAC27038C5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 916087C2E437249799197211D9C48797 /* SkyFloatingLabelTextField.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SkyFloatingLabelTextField;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -1117,7 +1259,7 @@
 		};
 		7B685F946D3AC9C48CE2B345BF735E41 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A8B8E075C7866304E85DE81082C2885 /* LTMorphingLabel.xcconfig */;
+			baseConfigurationReference = B098E658E1298273B48CEDA9E3B329B6 /* LTMorphingLabel.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1148,9 +1290,9 @@
 			};
 			name = Debug;
 		};
-		8496FF06A082839EA44CC47A1FB0B96C /* Debug */ = {
+		7F0B9B0346F85A179F624F82AD9957A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E7A46D609B0579D29C64C018BFAE3FF /* UICircularProgressRing.xcconfig */;
+			baseConfigurationReference = BA2F689008CE8C529BF02EDCA9592512 /* SkyFloatingLabelTextField.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1163,14 +1305,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UICircularProgressRing/UICircularProgressRing-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UICircularProgressRing/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UICircularProgressRing/UICircularProgressRing.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = UICircularProgressRing;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1183,7 +1325,7 @@
 		};
 		8CDC4B63A11F75BB71D26D744867FC6B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 524EB0BF2A5592BDE425252372B051E7 /* FoldingCell.xcconfig */;
+			baseConfigurationReference = 42D9664F96AA2443B9D9C49FBFFEEE6D /* FoldingCell.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1214,9 +1356,9 @@
 			};
 			name = Debug;
 		};
-		915C713DE783DF55564E0C8FA5CBFFD9 /* Release */ = {
+		AC88A271423F41A5A852C147B926E5B3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBBBC434C900ED6F66546864CD82FE00 /* Pods-Prototype.release.xcconfig */;
+			baseConfigurationReference = BA2F689008CE8C529BF02EDCA9592512 /* SkyFloatingLabelTextField.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1229,18 +1371,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Prototype/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Prototype/Pods-Prototype.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Prototype;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -1250,42 +1388,69 @@
 			};
 			name = Release;
 		};
-		CB71B60458B1701FFA182806155C4B2C /* Debug */ = {
+		B05C97D3E7BDB58223192F3357D47251 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21546833C42DB2A25FC930C31595CDF9 /* Pods-Prototype.debug.xcconfig */;
+			baseConfigurationReference = B717EE859DC9A4E470CC3EF819FAA74C /* UICircularProgressRing.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Prototype/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/UICircularProgressRing/UICircularProgressRing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICircularProgressRing/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Prototype/Pods-Prototype.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Prototype;
+				MODULEMAP_FILE = "Target Support Files/UICircularProgressRing/UICircularProgressRing.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UICircularProgressRing;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		B99F646D4B2652928D787694A7A909CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CFB6F7A5520ED13D4AFEB29F1B2222D /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		D2E604D03096AC887CFCDB7F9119E70F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1325,7 +1490,7 @@
 		};
 		D58F76445200F6097078744D3E36EE07 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A8B8E075C7866304E85DE81082C2885 /* LTMorphingLabel.xcconfig */;
+			baseConfigurationReference = B098E658E1298273B48CEDA9E3B329B6 /* LTMorphingLabel.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1391,9 +1556,87 @@
 			};
 			name = Debug;
 		};
+		F3FABCF36BB69C4E8349D48A56CDFA5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B717EE859DC9A4E470CC3EF819FAA74C /* UICircularProgressRing.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UICircularProgressRing/UICircularProgressRing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICircularProgressRing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UICircularProgressRing/UICircularProgressRing.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UICircularProgressRing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7B4A5A68706D44F6CE2E19F5DC47EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBBBC434C900ED6F66546864CD82FE00 /* Pods-Prototype.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Prototype/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Prototype/Pods-Prototype.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Prototype;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		08913436C5D3DFB2C8CEA353ED9FF003 /* Build configuration list for PBXNativeTarget "M13Checkbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0241C69DB86CFE9C95F781C0F7848B9E /* Debug */,
+				B99F646D4B2652928D787694A7A909CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1403,29 +1646,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C63FD9C7154F8854EF88779039CF14B /* Build configuration list for PBXNativeTarget "UICircularProgressRing" */ = {
+		4B9653F75BF222A42664E9B0B5C74914 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8496FF06A082839EA44CC47A1FB0B96C /* Debug */,
-				28B258501D52AC54BB72E3561973F100 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6CA1717CA721369D22BA9B53F4595829 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				30BC2E8E23579DD6C880BEF31B5DE1AA /* Debug */,
-				419ECF97B4B5CD75603815CAC27038C5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		78A3A8974F6F56D745C28F45E80186EA /* Build configuration list for PBXNativeTarget "Pods-Prototype" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CB71B60458B1701FFA182806155C4B2C /* Debug */,
-				915C713DE783DF55564E0C8FA5CBFFD9 /* Release */,
+				7F0B9B0346F85A179F624F82AD9957A4 /* Debug */,
+				AC88A271423F41A5A852C147B926E5B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1448,6 +1673,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		AF34DEC3FCA3816594300C47A5676E1E /* Build configuration list for PBXNativeTarget "Pods-Prototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD7E834BE967C694BDEF7B071ABE3C2 /* Debug */,
+				F7B4A5A68706D44F6CE2E19F5DC47EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B5E52972EF33CE3CB7D4D997DA9EA71A /* Build configuration list for PBXNativeTarget "FoldingCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1462,6 +1696,15 @@
 			buildConfigurations = (
 				7B685F946D3AC9C48CE2B345BF735E41 /* Debug */,
 				D58F76445200F6097078744D3E36EE07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E726D7098F04EF928CB892BD2C9D95EE /* Build configuration list for PBXNativeTarget "UICircularProgressRing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FABCF36BB69C4E8349D48A56CDFA5A /* Debug */,
+				B05C97D3E7BDB58223192F3357D47251 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
